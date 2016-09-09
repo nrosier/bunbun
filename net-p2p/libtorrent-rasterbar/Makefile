@@ -4,7 +4,7 @@
 PORTNAME=	libtorrent-rasterbar
 PORTVERSION=	1.1.1
 CATEGORIES?=	net-p2p ipv6
-MASTER_SITES=	https://github.com/arvidn/libtorrent/releases/download/libtorrent-${PORTVERSION:R:S/./_/g}/
+MASTER_SITES=	https://github.com/arvidn/libtorrent/releases/download/libtorrent-${PORTVERSION:S/./_/g}/
 
 MAINTAINER=	matthew@reztek.cz
 COMMENT?=	C++ library implementing a BitTorrent client

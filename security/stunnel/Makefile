@@ -3,8 +3,8 @@
 
 PORTNAME=	stunnel
 PORTVERSION=	5.35
-PORTREVISION=	1
-PORTEPOCH=	1
+PORTREVISION=	1a
+PORTEPOCH=	1a
 CATEGORIES=	security
 MASTER_SITES=	https://www.stunnel.org/downloads/%SUBDIR%/ \
 		https://www.stunnel.org/downloads/beta/ \

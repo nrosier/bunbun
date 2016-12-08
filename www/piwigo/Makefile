@@ -2,8 +2,8 @@
 # $FreeBSD: head/www/piwigo/Makefile 422067 2016-09-13 19:12:56Z amdmi3 $
 
 PORTNAME=	piwigo
-PORTVERSION=	2.8.2
-PORTREVISION=	1
+PORTVERSION=	2.8.3
+PORTREVISION=	0
 CATEGORIES=	www
 MASTER_SITES=	http://piwigo.org/download/dlcounter.php?code=${PORTVERSION}&/
 

@@ -2,7 +2,7 @@
 
 CATEGORIES=	www
 
-PORTREVISION=	3
+PORTREVISION=	2
 
 MASTERDIR=	${.CURDIR}/../../lang/php71
 

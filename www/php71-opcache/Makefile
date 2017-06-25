@@ -2,6 +2,8 @@
 
 CATEGORIES=	www
 
+PORTREVISION=	3
+
 MASTERDIR=	${.CURDIR}/../../lang/php71
 
 PKGNAMESUFFIX=	-opcache

@@ -1,4 +1,4 @@
---- ext/opcache/zend_file_cache.c
+--- ext/opcache/zend_file_cache.c.old
 +++ ext/opcache/zend_file_cache.c
 @@ -24,9 +24,10 @@
  

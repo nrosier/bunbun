@@ -1,5 +1,5 @@
---- a/ext/opcache/zend_file_cache.c
-+++ b/ext/opcache/zend_file_cache.c
+--- ext/opcache/zend_file_cache.c
++++ ext/opcache/zend_file_cache.c
 @@ -24,9 +24,10 @@
  
  #include "php.h"

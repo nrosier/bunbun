@@ -1,5 +1,5 @@
---- config.hpp.orig	2017-07-05 10:36:20.645116000 +0200
-+++ config.hpp	2017-07-05 10:37:49.876606000 +0200
+--- include/libtorrent/config.hpp.orig	2017-07-05 10:36:20.645116000 +0200
++++ include/libtorrent/config.hpp	2017-07-05 10:37:49.876606000 +0200
 @@ -195,12 +195,6 @@
  #define TORRENT_USE_EXECINFO 1
  #endif

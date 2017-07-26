@@ -1,7 +1,5 @@
-diff --git opendmarc-1.3.2.orig/reports/opendmarc-import.in opendmarc-1.3.2/reports/opendmarc-import.in
-index 5a28f2f..6b871e7 100755
---- opendmarc-1.3.2.orig/reports/opendmarc-import.in
-+++ opendmarc-1.3.2/reports/opendmarc-import.in
+--- reports/opendmarc-import.in.orig
++++ reports/opendmarc-import.in
 @@ -216,8 +216,8 @@ sub update_db
  		return;
  	}
@@ -13,10 +11,8 @@ index 5a28f2f..6b871e7 100755
  	{
  		print STDERR "$progname: failed to insert message: " . $dbi_h->errstr . "\n";
  		return;
-diff --git opendmarc-1.3.2.orig/reports/opendmarc-reports.in opendmarc-1.3.2/reports/opendmarc-reports.in
-index 90e67ba..41ecc89 100755
---- opendmarc-1.3.2.orig/reports/opendmarc-reports.in
-+++ opendmarc-1.3.2/reports/opendmarc-reports.in
+--- reports/opendmarc-reports.in.orig
++++ reports/opendmarc-reports.in
 @@ -65,6 +65,7 @@ my $domainset;
  my $forcedomain;
  my @skipdomains;

@@ -60,7 +60,6 @@
 %%DATADIR%%/Definitions/anidex.yml
 %%DATADIR%%/Definitions/anirena.yml
 %%DATADIR%%/Definitions/aox.yml
-%%DATADIR%%/Definitions/apollo.yml
 %%DATADIR%%/Definitions/arabafenice.yml
 %%DATADIR%%/Definitions/archetorrent.yml
 %%DATADIR%%/Definitions/asiandvdclub.yml
@@ -199,7 +198,6 @@
 %%DATADIR%%/Definitions/torrenting.yml
 %%DATADIR%%/Definitions/torrentsectorcrew.yml
 %%DATADIR%%/Definitions/torrentsmd.yml
-%%DATADIR%%/Definitions/torrentvault.yml
 %%DATADIR%%/Definitions/torrentz2.yml
 %%DATADIR%%/Definitions/torviet.yml
 %%DATADIR%%/Definitions/totheglory.yml

@@ -131,7 +131,6 @@
 %%DATADIR%%/Definitions/idope.yml
 %%DATADIR%%/Definitions/ilcorsaronero.yml
 %%DATADIR%%/Definitions/iloveclassics.yml
-%%DATADIR%%/Definitions/infinityt.yml
 %%DATADIR%%/Definitions/inperil.yml
 %%DATADIR%%/Definitions/insanetracker.yml
 %%DATADIR%%/Definitions/isohunt2.yml
@@ -172,6 +171,7 @@
 %%DATADIR%%/Definitions/rodvd.yml
 %%DATADIR%%/Definitions/rutor.yml
 %%DATADIR%%/Definitions/scenefz.yml
+%%DATADIR%%/Definitions/scenereactor.yml
 %%DATADIR%%/Definitions/sdbits.yml
 %%DATADIR%%/Definitions/shareisland.yml
 %%DATADIR%%/Definitions/sharespacedb.yml
@@ -213,7 +213,6 @@
 %%DATADIR%%/Definitions/trezzor.yml
 %%DATADIR%%/Definitions/uhdbits.yml
 %%DATADIR%%/Definitions/ultimategamerclub.yml
-%%DATADIR%%/Definitions/ultrahdclub.yml
 %%DATADIR%%/Definitions/utorrents.yml
 %%DATADIR%%/Definitions/waffles.yml
 %%DATADIR%%/Definitions/worldofp2p.yml

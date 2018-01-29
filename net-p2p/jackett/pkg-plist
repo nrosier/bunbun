@@ -1,3 +1,4 @@
+etc/rc.d/jackett
 %%DATADIR%%/AngleSharp.dll
 %%DATADIR%%/AutoMapper.dll
 %%DATADIR%%/Autofac.Integration.WebApi.dll
@@ -56,6 +57,7 @@
 %%DATADIR%%/Definitions/1337x.yml
 %%DATADIR%%/Definitions/2fast4you.yml
 %%DATADIR%%/Definitions/3dtorrents.yml
+%%DATADIR%%/Definitions/Bittorrentfiles.yml
 %%DATADIR%%/Definitions/acidlounge.yml
 %%DATADIR%%/Definitions/anidex.yml
 %%DATADIR%%/Definitions/anirena.yml
@@ -116,11 +118,13 @@
 %%DATADIR%%/Definitions/gods.yml
 %%DATADIR%%/Definitions/gormogon.yml
 %%DATADIR%%/Definitions/greekteam.yml
+%%DATADIR%%/Definitions/hachede-c.yml
 %%DATADIR%%/Definitions/hachede.yml
 %%DATADIR%%/Definitions/hd4Free.yml
 %%DATADIR%%/Definitions/hdbits.yml
 %%DATADIR%%/Definitions/hdbitscom.yml
 %%DATADIR%%/Definitions/hdchina.yml
+%%DATADIR%%/Definitions/hdcity.yml
 %%DATADIR%%/Definitions/hdhome.yml
 %%DATADIR%%/Definitions/hdme.yml
 %%DATADIR%%/Definitions/hdsky.yml
@@ -168,6 +172,7 @@
 %%DATADIR%%/Definitions/passionetorrent.yml
 %%DATADIR%%/Definitions/polishsource.yml
 %%DATADIR%%/Definitions/ptfiles.yml
+%%DATADIR%%/Definitions/puntotorrent.yml
 %%DATADIR%%/Definitions/rockhardlossless.yml
 %%DATADIR%%/Definitions/rodvd.yml
 %%DATADIR%%/Definitions/rutor.yml
@@ -184,6 +189,7 @@
 %%DATADIR%%/Definitions/sporthd.yml
 %%DATADIR%%/Definitions/sportscult.yml
 %%DATADIR%%/Definitions/tasmanit.yml
+%%DATADIR%%/Definitions/tbplus.yml
 %%DATADIR%%/Definitions/tenyardtracker.yml
 %%DATADIR%%/Definitions/theempire.yml
 %%DATADIR%%/Definitions/thegeeks.yml

@@ -103,6 +103,7 @@ etc/rc.d/jackett
 %%DATADIR%%/Definitions/estone.yml
 %%DATADIR%%/Definitions/ethor.yml
 %%DATADIR%%/Definitions/ettv.yml
+%%DATADIR%%/Definitions/extratorrent-ag.yml
 %%DATADIR%%/Definitions/eztv.yml
 %%DATADIR%%/Definitions/fanoin.yml
 %%DATADIR%%/Definitions/freedomhd.yml

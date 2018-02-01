@@ -119,7 +119,6 @@ etc/rc.d/jackett
 %%DATADIR%%/Definitions/gods.yml
 %%DATADIR%%/Definitions/gormogon.yml
 %%DATADIR%%/Definitions/greekteam.yml
-%%DATADIR%%/Definitions/hachede-c.yml
 %%DATADIR%%/Definitions/hachede.yml
 %%DATADIR%%/Definitions/hd4Free.yml
 %%DATADIR%%/Definitions/hdbits.yml
@@ -221,7 +220,6 @@ etc/rc.d/jackett
 %%DATADIR%%/Definitions/trezzor.yml
 %%DATADIR%%/Definitions/uhdbits.yml
 %%DATADIR%%/Definitions/ultimategamerclub.yml
-%%DATADIR%%/Definitions/utorrents.yml
 %%DATADIR%%/Definitions/waffles.yml
 %%DATADIR%%/Definitions/worldofp2p.yml
 %%DATADIR%%/Definitions/worldwidetorrents.yml

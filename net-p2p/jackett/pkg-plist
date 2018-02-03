@@ -210,6 +210,7 @@ etc/rc.d/jackett
 %%DATADIR%%/Definitions/torrentdownloads.yml
 %%DATADIR%%/Definitions/torrenthr.yml
 %%DATADIR%%/Definitions/torrenting.yml
+%%DATADIR%%/Definitions/torrentland.yml
 %%DATADIR%%/Definitions/torrentlt.yml
 %%DATADIR%%/Definitions/torrentsectorcrew.yml
 %%DATADIR%%/Definitions/torrentsmd.yml

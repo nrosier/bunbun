@@ -106,6 +106,7 @@ etc/rc.d/jackett
 %%DATADIR%%/Definitions/extratorrent-ag.yml
 %%DATADIR%%/Definitions/eztv.yml
 %%DATADIR%%/Definitions/fanoin.yml
+%%DATADIR%%/Definitions/femdomcult.yml
 %%DATADIR%%/Definitions/freedomhd.yml
 %%DATADIR%%/Definitions/frozenlayer.yml
 %%DATADIR%%/Definitions/fullmixmusic.yml
@@ -221,6 +222,7 @@ etc/rc.d/jackett
 %%DATADIR%%/Definitions/trezzor.yml
 %%DATADIR%%/Definitions/uhdbits.yml
 %%DATADIR%%/Definitions/ultimategamerclub.yml
+%%DATADIR%%/Definitions/utorrents.yml
 %%DATADIR%%/Definitions/waffles.yml
 %%DATADIR%%/Definitions/worldofp2p.yml
 %%DATADIR%%/Definitions/worldwidetorrents.yml

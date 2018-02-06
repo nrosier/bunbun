@@ -1,4 +1,3 @@
-etc/rc.d/jackett
 %%DATADIR%%/AngleSharp.dll
 %%DATADIR%%/AutoMapper.dll
 %%DATADIR%%/Autofac.Integration.WebApi.dll
@@ -222,7 +221,6 @@ etc/rc.d/jackett
 %%DATADIR%%/Definitions/trezzor.yml
 %%DATADIR%%/Definitions/uhdbits.yml
 %%DATADIR%%/Definitions/ultimategamerclub.yml
-%%DATADIR%%/Definitions/utorrents.yml
 %%DATADIR%%/Definitions/waffles.yml
 %%DATADIR%%/Definitions/worldofp2p.yml
 %%DATADIR%%/Definitions/worldwidetorrents.yml

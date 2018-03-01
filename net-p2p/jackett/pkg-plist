@@ -182,7 +182,6 @@
 %%DATADIR%%/Definitions/sharespacedb.yml
 %%DATADIR%%/Definitions/shellife.yml
 %%DATADIR%%/Definitions/sktorrent.yml
-%%DATADIR%%/Definitions/skytorrents.yml
 %%DATADIR%%/Definitions/speed-share.yml
 %%DATADIR%%/Definitions/speedtorrentreloaded.yml
 %%DATADIR%%/Definitions/sporthd.yml
@@ -209,10 +208,12 @@
 %%DATADIR%%/Definitions/torrentdownloads.yml
 %%DATADIR%%/Definitions/torrenthr.yml
 %%DATADIR%%/Definitions/torrenting.yml
+%%DATADIR%%/Definitions/torrentkim.yml
 %%DATADIR%%/Definitions/torrentland.yml
 %%DATADIR%%/Definitions/torrentlt.yml
 %%DATADIR%%/Definitions/torrentsectorcrew.yml
 %%DATADIR%%/Definitions/torrentsmd.yml
+%%DATADIR%%/Definitions/torrentwtf.yml
 %%DATADIR%%/Definitions/torrentz2.yml
 %%DATADIR%%/Definitions/torviet.yml
 %%DATADIR%%/Definitions/totheglory.yml

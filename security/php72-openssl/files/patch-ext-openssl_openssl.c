@@ -1,5 +1,5 @@
---- ext/openssl/openssl.c.orig	2018-04-04 14:26:34.583000000 +0000
-+++ ext/openssl/openssl.c	2018-04-04 14:20:16.907000000 +0000
+--- openssl.c.orig	2018-04-04 14:26:34.583000000 +0000
++++ openssl.c	2018-04-04 14:20:16.907000000 +0000
 @@ -73,7 +73,7 @@
  #ifdef HAVE_OPENSSL_MD2_H
  #define OPENSSL_ALGO_MD2	4

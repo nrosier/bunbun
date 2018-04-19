@@ -1,5 +1,5 @@
---- openssl.c.orig	2018-02-27 16:33:08 UTC
-+++ openssl.c
+--- ext/openssl/openssl.c.orig	2018-02-27 16:33:08 UTC
++++ ext/openssl/openssl.c
 @@ -564,7 +564,7 @@ ZEND_GET_MODULE(openssl)
  #endif
  

@@ -6,7 +6,7 @@ Boilerplate for SSL_CTX_set1_groups() used in qsslcontext_openssl.cpp.
  Q_AUTOTEST_EXPORT int q_BIO_write(BIO *a, const void *b, int c);
  int q_BN_num_bits(const BIGNUM *a);
 -#if OPENSSL_VERSION_NUMBER >= 0x10100000L
-+#if !defined(BN_is_word)
++#if !defined(BN_is_word) || defined(LIBRESSL_VERSION_NUMBER)
  int q_BN_is_word(BIGNUM *a, BN_ULONG w);
  #else
  // BN_is_word is implemented purely as a

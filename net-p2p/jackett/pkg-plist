@@ -80,7 +80,6 @@
 %%DATADIR%%/Definitions/btbit.yml
 %%DATADIR%%/Definitions/btdb.yml
 %%DATADIR%%/Definitions/btnext.yml
-%%DATADIR%%/Definitions/btworld.yml
 %%DATADIR%%/Definitions/carpathians.yml
 %%DATADIR%%/Definitions/ccfbits.yml
 %%DATADIR%%/Definitions/chdbits.yml
@@ -115,7 +114,6 @@
 %%DATADIR%%/Definitions/gfxnews.yml
 %%DATADIR%%/Definitions/gfxpeers.yml
 %%DATADIR%%/Definitions/gigatorrents.yml
-%%DATADIR%%/Definitions/girotorrent.yml
 %%DATADIR%%/Definitions/gktorrent.yml
 %%DATADIR%%/Definitions/gods.yml
 %%DATADIR%%/Definitions/greekteam.yml
@@ -127,14 +125,12 @@
 %%DATADIR%%/Definitions/hdhome.yml
 %%DATADIR%%/Definitions/hdme.yml
 %%DATADIR%%/Definitions/hdsky.yml
-%%DATADIR%%/Definitions/hdspain.yml
 %%DATADIR%%/Definitions/hdtorrentsit.yml
 %%DATADIR%%/Definitions/hon3yhd.yml
 %%DATADIR%%/Definitions/horriblesubs.yml
 %%DATADIR%%/Definitions/hyperay.yml
 %%DATADIR%%/Definitions/icetorrent.yml
 %%DATADIR%%/Definitions/idope.yml
-%%DATADIR%%/Definitions/ilcorsaroblu.yml
 %%DATADIR%%/Definitions/ilcorsaronero.yml
 %%DATADIR%%/Definitions/iloveclassics.yml
 %%DATADIR%%/Definitions/inperil.yml
@@ -173,8 +169,6 @@
 %%DATADIR%%/Definitions/polishsource.yml
 %%DATADIR%%/Definitions/ptfiles.yml
 %%DATADIR%%/Definitions/puntotorrent.yml
-%%DATADIR%%/Definitions/racing4everyone.yml
-%%DATADIR%%/Definitions/rgu.yml
 %%DATADIR%%/Definitions/rodvd.yml
 %%DATADIR%%/Definitions/rutor.yml
 %%DATADIR%%/Definitions/scenefz.yml
@@ -188,8 +182,6 @@
 %%DATADIR%%/Definitions/speedtorrentreloaded.yml
 %%DATADIR%%/Definitions/sporthd.yml
 %%DATADIR%%/Definitions/sportscult.yml
-%%DATADIR%%/Definitions/sukebei-pantsu.yml
-%%DATADIR%%/Definitions/sukebeinyaasi.yml
 %%DATADIR%%/Definitions/tasmanit.yml
 %%DATADIR%%/Definitions/tbplus.yml
 %%DATADIR%%/Definitions/tenyardtracker.yml
@@ -206,7 +198,6 @@
 %%DATADIR%%/Definitions/tntvillage.yml
 %%DATADIR%%/Definitions/tokyotosho.yml
 %%DATADIR%%/Definitions/torlock.yml
-%%DATADIR%%/Definitions/torrent-turk.yml
 %%DATADIR%%/Definitions/torrent9.yml
 %%DATADIR%%/Definitions/torrentbd.yml
 %%DATADIR%%/Definitions/torrentccf.yml
@@ -217,8 +208,8 @@
 %%DATADIR%%/Definitions/torrentland.yml
 %%DATADIR%%/Definitions/torrentlt.yml
 %%DATADIR%%/Definitions/torrentsectorcrew.yml
-%%DATADIR%%/Definitions/torrentseeds.yml
 %%DATADIR%%/Definitions/torrentsmd.yml
+%%DATADIR%%/Definitions/torrentwtf.yml
 %%DATADIR%%/Definitions/torrentz2.yml
 %%DATADIR%%/Definitions/torviet.yml
 %%DATADIR%%/Definitions/totheglory.yml
@@ -230,7 +221,6 @@
 %%DATADIR%%/Definitions/waffles.yml
 %%DATADIR%%/Definitions/worldofp2p.yml
 %%DATADIR%%/Definitions/worldwidetorrents.yml
-%%DATADIR%%/Definitions/xbytes2.yml
 %%DATADIR%%/Definitions/xtremezone.yml
 %%DATADIR%%/Definitions/yggtorrent.yml
 %%DATADIR%%/Definitions/yourexotic.yml
@@ -248,6 +238,7 @@
 %%DATADIR%%/JackettConsole.exe.config
 %%DATADIR%%/JackettConsole.pdb
 %%DATADIR%%/JackettUpdater.exe
+%%DATADIR%%/JackettUpdater.exe.config
 %%DATADIR%%/JackettUpdater.pdb
 %%DATADIR%%/LICENSE
 %%DATADIR%%/Microsoft.AspNetCore.WebUtilities.dll

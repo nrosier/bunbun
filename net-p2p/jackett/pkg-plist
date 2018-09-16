@@ -68,6 +68,7 @@
 %%DATADIR%%/Definitions/b2s-share.yml
 %%DATADIR%%/Definitions/backups.yml
 %%DATADIR%%/Definitions/bigtorrent.yml
+%%DATADIR%%/Definitions/bigtower.yml
 %%DATADIR%%/Definitions/bithorlo.yml
 %%DATADIR%%/Definitions/bithumen.yml
 %%DATADIR%%/Definitions/bitme.yml
@@ -130,7 +131,6 @@
 %%DATADIR%%/Definitions/hdspain.yml
 %%DATADIR%%/Definitions/hdtorrentsit.yml
 %%DATADIR%%/Definitions/hon3yhd.yml
-%%DATADIR%%/Definitions/horriblesubs.yml
 %%DATADIR%%/Definitions/hqsource.yml
 %%DATADIR%%/Definitions/hyperay.yml
 %%DATADIR%%/Definitions/icetorrent.yml
@@ -175,6 +175,8 @@
 %%DATADIR%%/Definitions/puntotorrent.yml
 %%DATADIR%%/Definitions/racing4everyone.yml
 %%DATADIR%%/Definitions/redstartorrent.yml
+%%DATADIR%%/Definitions/redtopia.yml
+%%DATADIR%%/Definitions/retroflix.yml
 %%DATADIR%%/Definitions/rgu.yml
 %%DATADIR%%/Definitions/rodvd.yml
 %%DATADIR%%/Definitions/rutor.yml
@@ -214,7 +216,6 @@
 %%DATADIR%%/Definitions/torrentdownloads.yml
 %%DATADIR%%/Definitions/torrenthr.yml
 %%DATADIR%%/Definitions/torrenting.yml
-%%DATADIR%%/Definitions/torrentkim.yml
 %%DATADIR%%/Definitions/torrentland.yml
 %%DATADIR%%/Definitions/torrentlt.yml
 %%DATADIR%%/Definitions/torrentsectorcrew.yml

@@ -1,6 +1,6 @@
 --- config.h.in.orig	2018-04-14 15:52:32 UTC
 +++ config.h.in
-@@ -18,6 +18,10 @@
+@@ -21,6 +21,10 @@
  /* Indicator that RELP is present */
  #undef ENABLE_RELP
  

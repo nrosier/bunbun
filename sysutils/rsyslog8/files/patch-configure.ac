@@ -1,6 +1,6 @@
---- configure.ac.orig	2018-04-03 09:47:39 UTC
-+++ configure.ac
-@@ -1520,6 +1520,19 @@ if test "x$enable_imfile" = "xyes"; then
+--- configure.ac.orig	2019-01-31 15:30:20.089476000 +0100
++++ configure.ac	2019-01-31 15:31:13.642858000 +0100
+@@ -1619,6 +1619,19 @@
  fi
  AM_CONDITIONAL(ENABLE_IMFILE, test x$enable_imfile = xyes)
  
@@ -20,11 +20,11 @@
  
  # settings for the door input module (under solaris, thus default off)
  AC_ARG_ENABLE(imsolaris,
-@@ -2312,6 +2325,7 @@ echo "    imdiag enabled:               
+@@ -2413,6 +2426,7 @@
  echo "    file input module enabled:                $enable_imfile"
  echo "    Solaris input module enabled:             $enable_imsolaris"
  echo "    periodic statistics module enabled:       $enable_impstats"
-+echo "    syslog(3) unix socket uses RFC5424:       $enable_imuxsock_rfc5424" 
- echo "    imzmq3 input module enabled:              $enable_imzmq3"
++echo "    syslog(3) unix socket uses RFC5424:       $enable_imuxsock_rfc5424"
  echo "    imczmq input module enabled:              $enable_imczmq"
  echo "    imjournal input module enabled:           $enable_imjournal"
+ echo "    imkafka module will be compiled:          $enable_imkafka"

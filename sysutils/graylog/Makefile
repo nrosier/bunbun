@@ -2,7 +2,7 @@
 # $FreeBSD: head/sysutils/graylog/Makefile 487477 2018-12-15 00:52:50Z joneum $
 
 PORTNAME=	graylog
-DISTVERSION=	2.5.1
+DISTVERSION=	3.0.0-rc.1
 CATEGORIES=	sysutils java
 MASTER_SITES=	https://packages.graylog2.org/releases/graylog/ \
 		http://packages.graylog2.org/releases/graylog/

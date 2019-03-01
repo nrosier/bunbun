@@ -101,8 +101,14 @@ INSTALL_TARGET=	install-lib install-h install-config
 
 .include <bsd.port.pre.mk>
 
-.if ${PORT_OPTIONS:MDANETAUSAGE} && (${SSL_DEFAULT} != openssl111 && ${OSVERSION} < 1200085)
-BROKEN=		this option requires openssl >= 1.1.0
+.if ${PORT_OPTIONS:MDANETAUSAGE}
+.if ${OPSYS} == FreeBSD && ${OSVERSION} >= 1200085 && ${SSL_DEFAULT} == openssl
+BROKEN=                this option requires openssl >= 1.1.0
+.elif ${OPSYS} == FreeBSD && ${OSVERSION} < 1200085 && ${SSL_DEFAULT} != openssl111
+BROKEN=                this option requires openssl >= 1.1.0
+.elif ${SSL_DEFAULT} != openssl111
+BROKEN=                this option requires openssl >= 1.1.0
+.endif
 .endif
 
 .if ! ${PORT_OPTIONS:MGOST}

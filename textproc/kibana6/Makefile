@@ -43,9 +43,5 @@ post-install:
 		${SED} -e 's#^${STAGEDIR}${PREFIX}/##' >> ${TMPPLIST}
 	${ECHO} "@dir(www,www) ${WWWDIR}/data" >> ${TMPPLIST}
 	${ECHO} "@dir ${WWWDIR}/plugins" >> ${TMPPLIST}
-	${ECHO} "@dir ${WWWDIR}/src/ui/public/factories" >> ${TMPPLIST}
-	${ECHO} "@dir ${WWWDIR}/src/core/public/injected_metadata/__fixtures__/frozen_object_mutation" >> ${TMPPLIST}
-	${ECHO} "@dir ${WWWDIR}/src/server/http/integration_tests" >> ${TMPPLIST}
-	${ECHO} "@dir ${WWWDIR}/src/type_definitions" >> ${TMPPLIST}
 
 .include <bsd.port.mk>

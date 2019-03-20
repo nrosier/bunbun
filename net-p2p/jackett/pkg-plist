@@ -57,8 +57,11 @@
 %%DATADIR%%/Definitions/3evils.yml
 %%DATADIR%%/Definitions/420files.yml
 %%DATADIR%%/Definitions/Bittorrentfiles.yml
+%%DATADIR%%/Definitions/acgrip.yml
 %%DATADIR%%/Definitions/acidlounge.yml
+%%DATADIR%%/Definitions/aftershock.yml
 %%DATADIR%%/Definitions/alein.yml
+%%DATADIR%%/Definitions/amigosshare.yml
 %%DATADIR%%/Definitions/anidex.yml
 %%DATADIR%%/Definitions/anirena.yml
 %%DATADIR%%/Definitions/aox.yml
@@ -76,10 +79,12 @@
 %%DATADIR%%/Definitions/backups.yml
 %%DATADIR%%/Definitions/bigtorrent.yml
 %%DATADIR%%/Definitions/bigtower.yml
+%%DATADIR%%/Definitions/bit-titan.yml
 %%DATADIR%%/Definitions/bithorlo.yml
 %%DATADIR%%/Definitions/bithumen.yml
 %%DATADIR%%/Definitions/bitme.yml
 %%DATADIR%%/Definitions/bitspyder.yml
+%%DATADIR%%/Definitions/bitturk.yml
 %%DATADIR%%/Definitions/bluebird.yml
 %%DATADIR%%/Definitions/blutopia.yml
 %%DATADIR%%/Definitions/btbit.yml
@@ -89,6 +94,7 @@
 %%DATADIR%%/Definitions/btstornet.yml
 %%DATADIR%%/Definitions/btxpress.yml
 %%DATADIR%%/Definitions/carpathians.yml
+%%DATADIR%%/Definitions/cartoonchaos.yml
 %%DATADIR%%/Definitions/casstudiotv.yml
 %%DATADIR%%/Definitions/ccfbits.yml
 %%DATADIR%%/Definitions/chdbits.yml
@@ -97,12 +103,16 @@
 %%DATADIR%%/Definitions/classix.yml
 %%DATADIR%%/Definitions/cpabien.yml
 %%DATADIR%%/Definitions/cpasbienclone.yml
+%%DATADIR%%/Definitions/crnaberza.yml
 %%DATADIR%%/Definitions/cztorrent.yml
+%%DATADIR%%/Definitions/dark-shadow.yml
 %%DATADIR%%/Definitions/datascene.yml
 %%DATADIR%%/Definitions/deildu.yml
 %%DATADIR%%/Definitions/desitorrents.yml
 %%DATADIR%%/Definitions/diablotorrent.yml
 %%DATADIR%%/Definitions/digbt.yml
+%%DATADIR%%/Definitions/divteam.yml
+%%DATADIR%%/Definitions/documentarytorrents.yml
 %%DATADIR%%/Definitions/downloadville.yml
 %%DATADIR%%/Definitions/dragonworldreloaded.yml
 %%DATADIR%%/Definitions/dreamteam.yml
@@ -120,6 +130,7 @@
 %%DATADIR%%/Definitions/femdomcult.yml
 %%DATADIR%%/Definitions/film-paleis.yml
 %%DATADIR%%/Definitions/freedomhd.yml
+%%DATADIR%%/Definitions/freetorrent.yml
 %%DATADIR%%/Definitions/frozenlayer.yml
 %%DATADIR%%/Definitions/fullmixmusic.yml
 %%DATADIR%%/Definitions/funkytorrents.yml
@@ -136,6 +147,7 @@
 %%DATADIR%%/Definitions/greekteam.yml
 %%DATADIR%%/Definitions/hachede.yml
 %%DATADIR%%/Definitions/hd4free.yml
+%%DATADIR%%/Definitions/hdarea.yml
 %%DATADIR%%/Definitions/hdbits.yml
 %%DATADIR%%/Definitions/hdbitscom.yml
 %%DATADIR%%/Definitions/hdcenter.yml
@@ -144,6 +156,7 @@
 %%DATADIR%%/Definitions/hdforever.yml
 %%DATADIR%%/Definitions/hdhome.yml
 %%DATADIR%%/Definitions/hdme.yml
+%%DATADIR%%/Definitions/hdplus.yml
 %%DATADIR%%/Definitions/hdsky.yml
 %%DATADIR%%/Definitions/hdspain.yml
 %%DATADIR%%/Definitions/hdtorrentsit.yml
@@ -152,7 +165,6 @@
 %%DATADIR%%/Definitions/hush.yml
 %%DATADIR%%/Definitions/hyperay.yml
 %%DATADIR%%/Definitions/icetorrent.yml
-%%DATADIR%%/Definitions/idopeclone.yml
 %%DATADIR%%/Definitions/ilcorsaroblu.yml
 %%DATADIR%%/Definitions/ilcorsaronero.yml
 %%DATADIR%%/Definitions/iloveclassics.yml
@@ -165,11 +177,13 @@
 %%DATADIR%%/Definitions/katcrs.yml
 %%DATADIR%%/Definitions/kickasstorrent-kathow.yml
 %%DATADIR%%/Definitions/kickasstorrent.yml
+%%DATADIR%%/Definitions/kikibt.yml
 %%DATADIR%%/Definitions/kinozal.yml
 %%DATADIR%%/Definitions/lesaloon.yml
 %%DATADIR%%/Definitions/limetorrents.yml
 %%DATADIR%%/Definitions/linkomanija.yml
 %%DATADIR%%/Definitions/losslessclub.yml
+%%DATADIR%%/Definitions/mactorrents.yml
 %%DATADIR%%/Definitions/magico.yml
 %%DATADIR%%/Definitions/magnetdl.yml
 %%DATADIR%%/Definitions/majomparade.yml
@@ -192,6 +206,7 @@
 %%DATADIR%%/Definitions/nyaasi.yml
 %%DATADIR%%/Definitions/nyoo.yml
 %%DATADIR%%/Definitions/ourbits.yml
+%%DATADIR%%/Definitions/p2pbg.yml
 %%DATADIR%%/Definitions/passionetorrent.yml
 %%DATADIR%%/Definitions/piratbit.yml
 %%DATADIR%%/Definitions/polishsource.yml
@@ -199,9 +214,12 @@
 %%DATADIR%%/Definitions/prostylex.yml
 %%DATADIR%%/Definitions/pt99.yml
 %%DATADIR%%/Definitions/ptfiles.yml
+%%DATADIR%%/Definitions/pthome.yml
 %%DATADIR%%/Definitions/puntotorrent.yml
 %%DATADIR%%/Definitions/pwtorrents.yml
+%%DATADIR%%/Definitions/qxr.yml
 %%DATADIR%%/Definitions/racing4everyone.yml
+%%DATADIR%%/Definitions/racingforme.yml
 %%DATADIR%%/Definitions/redstartorrent.yml
 %%DATADIR%%/Definitions/redtopia.yml
 %%DATADIR%%/Definitions/retroflix.yml
@@ -215,10 +233,12 @@
 %%DATADIR%%/Definitions/sdbits.yml
 %%DATADIR%%/Definitions/shareisland.yml
 %%DATADIR%%/Definitions/sharespacedb.yml
+%%DATADIR%%/Definitions/sharingue.yml
 %%DATADIR%%/Definitions/shellife.yml
 %%DATADIR%%/Definitions/shokweb.yml
 %%DATADIR%%/Definitions/sktorrent.yml
 %%DATADIR%%/Definitions/skytorrentsclone.yml
+%%DATADIR%%/Definitions/solidtorrents.yml
 %%DATADIR%%/Definitions/spacetorrent.yml
 %%DATADIR%%/Definitions/speed-share.yml
 %%DATADIR%%/Definitions/speedtorrentreloaded.yml
@@ -248,7 +268,6 @@
 %%DATADIR%%/Definitions/torrent9clone.yml
 %%DATADIR%%/Definitions/torrentbd.yml
 %%DATADIR%%/Definitions/torrentccf.yml
-%%DATADIR%%/Definitions/torrentcouch.yml
 %%DATADIR%%/Definitions/torrentdownloads.yml
 %%DATADIR%%/Definitions/torrentfunk.yml
 %%DATADIR%%/Definitions/torrentgalaxyorg.yml
@@ -257,11 +276,12 @@
 %%DATADIR%%/Definitions/torrentkitty.yml
 %%DATADIR%%/Definitions/torrentland.yml
 %%DATADIR%%/Definitions/torrentlt.yml
+%%DATADIR%%/Definitions/torrentproject2.yml
 %%DATADIR%%/Definitions/torrentsectorcrew.yml
 %%DATADIR%%/Definitions/torrentseeds.yml
 %%DATADIR%%/Definitions/torrentz2.yml
-%%DATADIR%%/Definitions/torrof.yml
 %%DATADIR%%/Definitions/torviet.yml
+%%DATADIR%%/Definitions/totallykids.yml
 %%DATADIR%%/Definitions/totheglory.yml
 %%DATADIR%%/Definitions/trancetraffic.yml
 %%DATADIR%%/Definitions/trezzor.yml
@@ -270,6 +290,7 @@
 %%DATADIR%%/Definitions/ultimategamerclub.yml
 %%DATADIR%%/Definitions/unionfansub.yml
 %%DATADIR%%/Definitions/vanila.yml
+%%DATADIR%%/Definitions/vizuk.yml
 %%DATADIR%%/Definitions/waffles.yml
 %%DATADIR%%/Definitions/wihd.yml
 %%DATADIR%%/Definitions/worldofp2p.yml
@@ -514,5 +535,6 @@
 %%DATADIR%%/System.Xml.XmlSerializer.dll
 %%DATADIR%%/Upstart.config
 %%DATADIR%%/YamlDotNet.dll
+%%DATADIR%%/install_service_systemd_mono.sh
 %%DATADIR%%/netstandard.dll
 %%DATADIR%%/web.config

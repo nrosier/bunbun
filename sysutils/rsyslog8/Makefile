@@ -1,7 +1,7 @@
 # $FreeBSD: head/sysutils/rsyslog8/Makefile 487295 2018-12-12 13:28:50Z matthew $
 
 PORTNAME=	rsyslog
-PORTVERSION=	8.1901.0
+PORTVERSION=	8.1903.0
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.rsyslog.com/files/download/rsyslog/
 

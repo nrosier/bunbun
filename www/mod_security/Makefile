@@ -23,7 +23,6 @@ LIB_DEPENDS+=	libpcre.so:devel/pcre \
 USES=		apache:2.4+ perl5 pkgconfig shebangfix bdb
 USE_GNOME=	libxml2
 GNU_CONFIGURE=	yes
-SHEBANG_FILES=	tools/rules-updater.pl.in mlogc/mlogc-batch-load.pl.in
 perl_OLD_CMD=	@PERL@
 
 AP_INC=		${LOCALBASE}/include/libxml2

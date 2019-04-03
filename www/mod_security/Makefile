@@ -4,9 +4,9 @@ PORTNAME=	mod_security
 PORTVERSION=	3.0.3
 PORTREVISION=	0
 CATEGORIES=	www security
-MASTER_SITES=	http://www.modsecurity.org/tarball/${PORTVERSION}/
+MASTER_SITES=	https://github.com/SpiderLabs/ModSecurity/releases/download/v${PORTVERSION}/
 PKGNAMEPREFIX=	${APACHE_PKGNAMEPREFIX}
-DISTNAME=	${PORTNAME:S/_//:S/2//}-${PORTVERSION}
+DISTNAME=	${PORTNAME:S/_//:S/2//}-v${PORTVERSION}
 
 MAINTAINER=	joneum@FreeBSD.org
 COMMENT=	Intrusion detection and prevention engine

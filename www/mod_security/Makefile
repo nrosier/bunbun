@@ -20,7 +20,7 @@ LIB_DEPENDS+=	libpcre.so:devel/pcre \
 		libgdbm.so:databases/gdbm \
 		libexpat.so:textproc/expat2
 
-USES=		apache:2.4+ perl5 pkgconfig shebangfix bdb
+USES=		apache:2.4+ perl5 pkgconfig bdb gmake
 USE_GNOME=	libxml2
 GNU_CONFIGURE=	yes
 perl_OLD_CMD=	@PERL@

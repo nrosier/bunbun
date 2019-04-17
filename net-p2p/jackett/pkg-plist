@@ -133,6 +133,7 @@
 %%DATADIR%%/Definitions/fanoin.yml
 %%DATADIR%%/Definitions/femdomcult.yml
 %%DATADIR%%/Definitions/film-paleis.yml
+%%DATADIR%%/Definitions/focusx.yml
 %%DATADIR%%/Definitions/freedomhd.yml
 %%DATADIR%%/Definitions/freetorrent.yml
 %%DATADIR%%/Definitions/frozenlayer.yml
@@ -147,7 +148,6 @@
 %%DATADIR%%/Definitions/gigatorrents.yml
 %%DATADIR%%/Definitions/girotorrent.yml
 %%DATADIR%%/Definitions/gktorrent.yml
-%%DATADIR%%/Definitions/gods.yml
 %%DATADIR%%/Definitions/greekteam.yml
 %%DATADIR%%/Definitions/hachede.yml
 %%DATADIR%%/Definitions/hd4free.yml
@@ -244,6 +244,7 @@
 %%DATADIR%%/Definitions/sktorrent.yml
 %%DATADIR%%/Definitions/skytorrentsclone.yml
 %%DATADIR%%/Definitions/solidtorrents.yml
+%%DATADIR%%/Definitions/soundpark.yml
 %%DATADIR%%/Definitions/spacetorrent.yml
 %%DATADIR%%/Definitions/speed-share.yml
 %%DATADIR%%/Definitions/speedtorrentreloaded.yml
@@ -285,6 +286,7 @@
 %%DATADIR%%/Definitions/torrentproject2.yml
 %%DATADIR%%/Definitions/torrentsectorcrew.yml
 %%DATADIR%%/Definitions/torrentseeds.yml
+%%DATADIR%%/Definitions/torrentslocal.yml
 %%DATADIR%%/Definitions/torrentz2.yml
 %%DATADIR%%/Definitions/torviet.yml
 %%DATADIR%%/Definitions/totallykids.yml

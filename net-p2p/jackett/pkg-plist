@@ -77,6 +77,7 @@
 %%DATADIR%%/Definitions/awesomehd.yml
 %%DATADIR%%/Definitions/b2s-share.yml
 %%DATADIR%%/Definitions/backups.yml
+%%DATADIR%%/Definitions/beyond-hd.yml
 %%DATADIR%%/Definitions/bigtorrent.yml
 %%DATADIR%%/Definitions/bigtower.yml
 %%DATADIR%%/Definitions/bit-titan.yml
@@ -100,10 +101,10 @@
 %%DATADIR%%/Definitions/ccfbits.yml
 %%DATADIR%%/Definitions/channelx.yml
 %%DATADIR%%/Definitions/chdbits.yml
-%%DATADIR%%/Definitions/cinefilhd.yml
 %%DATADIR%%/Definitions/cinemageddon.yml
 %%DATADIR%%/Definitions/cinematik.yml
 %%DATADIR%%/Definitions/classix.yml
+%%DATADIR%%/Definitions/concen.yml
 %%DATADIR%%/Definitions/cpabien.yml
 %%DATADIR%%/Definitions/cpasbienclone.yml
 %%DATADIR%%/Definitions/crnaberza.yml
@@ -121,6 +122,7 @@
 %%DATADIR%%/Definitions/dragonworldreloaded.yml
 %%DATADIR%%/Definitions/dreamteam.yml
 %%DATADIR%%/Definitions/dxdhd.yml
+%%DATADIR%%/Definitions/efectodoppler.yml
 %%DATADIR%%/Definitions/elitehd.yml
 %%DATADIR%%/Definitions/elitetorrent-biz.yml
 %%DATADIR%%/Definitions/elittracker.yml
@@ -134,7 +136,6 @@
 %%DATADIR%%/Definitions/femdomcult.yml
 %%DATADIR%%/Definitions/film-paleis.yml
 %%DATADIR%%/Definitions/focusx.yml
-%%DATADIR%%/Definitions/freedomhd.yml
 %%DATADIR%%/Definitions/freetorrent.yml
 %%DATADIR%%/Definitions/frozenlayer.yml
 %%DATADIR%%/Definitions/fullmixmusic.yml
@@ -143,6 +144,7 @@
 %%DATADIR%%/Definitions/gay-torrentsorg.yml
 %%DATADIR%%/Definitions/gaytorrentru.yml
 %%DATADIR%%/Definitions/gdf76.yml
+%%DATADIR%%/Definitions/generationfree.yml
 %%DATADIR%%/Definitions/gfxnews.yml
 %%DATADIR%%/Definitions/gfxpeers.yml
 %%DATADIR%%/Definitions/gigatorrents.yml
@@ -229,6 +231,7 @@
 %%DATADIR%%/Definitions/retroflix.yml
 %%DATADIR%%/Definitions/rgu.yml
 %%DATADIR%%/Definitions/rockbox.yml
+%%DATADIR%%/Definitions/rockethd.yml
 %%DATADIR%%/Definitions/rodvd.yml
 %%DATADIR%%/Definitions/rutor.yml
 %%DATADIR%%/Definitions/scenefz.yml
@@ -238,9 +241,9 @@
 %%DATADIR%%/Definitions/shareisland.yml
 %%DATADIR%%/Definitions/sharespacedb.yml
 %%DATADIR%%/Definitions/sharewood.yml
-%%DATADIR%%/Definitions/sharingue.yml
 %%DATADIR%%/Definitions/shellife.yml
 %%DATADIR%%/Definitions/shokweb.yml
+%%DATADIR%%/Definitions/siambit.yml
 %%DATADIR%%/Definitions/sktorrent.yml
 %%DATADIR%%/Definitions/skytorrentsclone.yml
 %%DATADIR%%/Definitions/solidtorrents.yml
@@ -253,8 +256,10 @@
 %%DATADIR%%/Definitions/sukebei-pantsu.yml
 %%DATADIR%%/Definitions/sukebeinyaasi.yml
 %%DATADIR%%/Definitions/takeabyte.yml
+%%DATADIR%%/Definitions/tapochek.yml
 %%DATADIR%%/Definitions/tasmanit.yml
 %%DATADIR%%/Definitions/tbplus.yml
+%%DATADIR%%/Definitions/teamhd.yml
 %%DATADIR%%/Definitions/tenyardtracker.yml
 %%DATADIR%%/Definitions/theempire.yml
 %%DATADIR%%/Definitions/thegeeks.yml
@@ -297,6 +302,7 @@
 %%DATADIR%%/Definitions/uhdbits.yml
 %%DATADIR%%/Definitions/ultimategamerclub.yml
 %%DATADIR%%/Definitions/unionfansub.yml
+%%DATADIR%%/Definitions/uniongang.yml
 %%DATADIR%%/Definitions/vanila.yml
 %%DATADIR%%/Definitions/vizuk.yml
 %%DATADIR%%/Definitions/waffles.yml
@@ -545,7 +551,6 @@
 %%DATADIR%%/System.Xml.XmlSerializer.dll
 %%DATADIR%%/Upstart.config
 %%DATADIR%%/YamlDotNet.dll
-%%DATADIR%%/install_service_macos_mono
 %%DATADIR%%/install_service_systemd_mono.sh
 %%DATADIR%%/netstandard.dll
 %%DATADIR%%/web.config

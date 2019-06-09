@@ -233,6 +233,7 @@
 %%DATADIR%%/Definitions/rockbox.yml
 %%DATADIR%%/Definitions/rockethd.yml
 %%DATADIR%%/Definitions/rodvd.yml
+%%DATADIR%%/Definitions/rptorrents.yml
 %%DATADIR%%/Definitions/rutor.yml
 %%DATADIR%%/Definitions/scenefz.yml
 %%DATADIR%%/Definitions/scenereactor.yml
@@ -316,6 +317,7 @@
 %%DATADIR%%/Definitions/xtremezone.yml
 %%DATADIR%%/Definitions/xwtorrents.yml
 %%DATADIR%%/Definitions/yggtorrent.yml
+%%DATADIR%%/Definitions/yourbittorrent.yml
 %%DATADIR%%/Definitions/yourexotic.yml
 %%DATADIR%%/Definitions/zamundanet.yml
 %%DATADIR%%/Definitions/zelkaorg.yml

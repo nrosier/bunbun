@@ -2,7 +2,7 @@
 # $FreeBSD: head/textproc/kibana6/Makefile 495337 2019-03-11 09:28:38Z meta $
 
 PORTNAME=	kibana
-PORTVERSION=	6.6.1
+PORTVERSION=	6.8.1
 DISTVERSIONSUFFIX=	-linux-x86_64
 #PORTREVISION=	2
 CATEGORIES=	textproc www

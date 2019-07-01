@@ -2,7 +2,7 @@
 # $FreeBSD: head/textproc/elasticsearch6/Makefile 485491 2018-11-20 22:51:17Z feld $
 
 PORTNAME=	elasticsearch
-PORTVERSION=	6.6.1
+PORTVERSION=	6.8.1
 #PORTREVISION=	1
 CATEGORIES=	textproc java devel
 MASTER_SITES=	https://artifacts.elastic.co/downloads/${PORTNAME}/ \

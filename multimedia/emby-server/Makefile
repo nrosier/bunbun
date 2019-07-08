@@ -1,7 +1,7 @@
 # $FreeBSD: head/multimedia/emby-server/Makefile 504353 2019-06-16 16:05:28Z antoine $
 
 PORTNAME=	emby-server
-PORTVERSION=	4.2.0.24
+PORTVERSION=	4.2.0.25
 PORTREVISION=	0
 CATEGORIES=	multimedia
 MASTER_SITES=	https://github.com/MediaBrowser/Emby.Releases/releases/download/${PORTVERSION}/ \

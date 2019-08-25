@@ -3,7 +3,7 @@
 %%DATADIR%%/Autofac.Extensions.DependencyInjection.dll
 %%DATADIR%%/Autofac.dll
 %%DATADIR%%/BencodeNET.dll
-%%DATADIR%%/CloudFlareUtilities.dll
+%%DATADIR%%/CloudflareSolverRe.dll
 %%DATADIR%%/CommandLine.dll
 %%DATADIR%%/Content/animate.css
 %%DATADIR%%/Content/binding_dark.png
@@ -64,6 +64,7 @@
 %%DATADIR%%/Definitions/acidlounge.yml
 %%DATADIR%%/Definitions/aftershock.yml
 %%DATADIR%%/Definitions/alein.yml
+%%DATADIR%%/Definitions/alexfilm.yml
 %%DATADIR%%/Definitions/amigosshare.yml
 %%DATADIR%%/Definitions/anidex.yml
 %%DATADIR%%/Definitions/anirena.yml
@@ -92,6 +93,7 @@
 %%DATADIR%%/Definitions/bitturk.yml
 %%DATADIR%%/Definitions/bluebird.yml
 %%DATADIR%%/Definitions/blutopia.yml
+%%DATADIR%%/Definitions/booktracker.yml
 %%DATADIR%%/Definitions/btbit.yml
 %%DATADIR%%/Definitions/btdb.yml
 %%DATADIR%%/Definitions/btdigg.yml
@@ -189,6 +191,7 @@
 %%DATADIR%%/Definitions/ilcorsaroblu.yml
 %%DATADIR%%/Definitions/ilcorsaronero.yml
 %%DATADIR%%/Definitions/iloveclassics.yml
+%%DATADIR%%/Definitions/immortuos.yml
 %%DATADIR%%/Definitions/inperil.yml
 %%DATADIR%%/Definitions/insanetracker.yml
 %%DATADIR%%/Definitions/isohunt2.yml
@@ -204,6 +207,7 @@
 %%DATADIR%%/Definitions/lapausetorrents.yml
 %%DATADIR%%/Definitions/learnflakes.yml
 %%DATADIR%%/Definitions/lechaudron.yml
+%%DATADIR%%/Definitions/lemencili.yml
 %%DATADIR%%/Definitions/leporno.yml
 %%DATADIR%%/Definitions/lesaloon.yml
 %%DATADIR%%/Definitions/libranet.yml
@@ -229,6 +233,7 @@
 %%DATADIR%%/Definitions/myspleen.yml
 %%DATADIR%%/Definitions/nbtorrents.yml
 %%DATADIR%%/Definitions/nethd.yml
+%%DATADIR%%/Definitions/netlab.yml
 %%DATADIR%%/Definitions/newretro.yml
 %%DATADIR%%/Definitions/newstudio.yml
 %%DATADIR%%/Definitions/nnm-club.yml
@@ -251,13 +256,13 @@
 %%DATADIR%%/Definitions/pthome.yml
 %%DATADIR%%/Definitions/puntotorrent.yml
 %%DATADIR%%/Definitions/pwtorrents.yml
-%%DATADIR%%/Definitions/qxr.yml
 %%DATADIR%%/Definitions/r3vwtf.yml
 %%DATADIR%%/Definitions/racing4everyone.yml
 %%DATADIR%%/Definitions/racingforme.yml
 %%DATADIR%%/Definitions/redstartorrent.yml
 %%DATADIR%%/Definitions/retroflix.yml
 %%DATADIR%%/Definitions/rgu.yml
+%%DATADIR%%/Definitions/rns.yml
 %%DATADIR%%/Definitions/rockbox.yml
 %%DATADIR%%/Definitions/rockethd.yml
 %%DATADIR%%/Definitions/rodvd.yml
@@ -293,6 +298,7 @@
 %%DATADIR%%/Definitions/teamos.yml
 %%DATADIR%%/Definitions/tellytorrent.yml
 %%DATADIR%%/Definitions/tenyardtracker.yml
+%%DATADIR%%/Definitions/tfile.yml
 %%DATADIR%%/Definitions/theaudioscene.yml
 %%DATADIR%%/Definitions/theempire.yml
 %%DATADIR%%/Definitions/thegeeks.yml
@@ -327,6 +333,7 @@
 %%DATADIR%%/Definitions/torrentsectorcrew.yml
 %%DATADIR%%/Definitions/torrentseeds.yml
 %%DATADIR%%/Definitions/torrentslocal.yml
+%%DATADIR%%/Definitions/torrentwal.yml
 %%DATADIR%%/Definitions/torrentz2.yml
 %%DATADIR%%/Definitions/torviet.yml
 %%DATADIR%%/Definitions/totallykids.yml
@@ -336,6 +343,7 @@
 %%DATADIR%%/Definitions/turktorrent.yml
 %%DATADIR%%/Definitions/twilight.yml
 %%DATADIR%%/Definitions/uhdbits.yml
+%%DATADIR%%/Definitions/underverse.yml
 %%DATADIR%%/Definitions/unionfansub.yml
 %%DATADIR%%/Definitions/uniongang.yml
 %%DATADIR%%/Definitions/unlimitz.yml

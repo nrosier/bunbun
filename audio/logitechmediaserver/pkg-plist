@@ -242,6 +242,7 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/CPAN/IO/Compress/Gzip/Constants.pm
 %%SLIMDIR%%/CPAN/IO/Interface.pm
 %%SLIMDIR%%/CPAN/IO/Interface/Simple.pm
+%%SLIMDIR%%/CPAN/IO/Socket/Socks.pm
 %%SLIMDIR%%/CPAN/IO/String.pm
 %%SLIMDIR%%/CPAN/Image/Scale.pm
 %%SLIMDIR%%/CPAN/JSON/XS.pm
@@ -340,6 +341,7 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/CPAN/Net/HTTP/Methods.pm
 %%SLIMDIR%%/CPAN/Net/HTTP/NB.pm
 %%SLIMDIR%%/CPAN/Net/HTTPS.pm
+%%SLIMDIR%%/CPAN/Net/HTTPS/NB.pm
 %%SLIMDIR%%/CPAN/Net/IPv4Addr.pm
 %%SLIMDIR%%/CPAN/Net/Ifconfig/Wrapper.pm
 %%SLIMDIR%%/CPAN/Net/UPnP.pm
@@ -358,6 +360,8 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/CPAN/PAR.pm
 %%SLIMDIR%%/CPAN/PAR/Dist.pm
 %%SLIMDIR%%/CPAN/PAR/Heavy.pm
+%%SLIMDIR%%/CPAN/PAR/SetupProgname.pm
+%%SLIMDIR%%/CPAN/PAR/SetupTemp.pm
 %%SLIMDIR%%/CPAN/Path/Class.pm
 %%SLIMDIR%%/CPAN/Path/Class/Dir.pm
 %%SLIMDIR%%/CPAN/Path/Class/Entity.pm
@@ -839,7 +843,6 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/Test/NoWarnings/Warning.pm
 %%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/Test/Warn.pm
 %%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/Tree/DAG_Node.pm
-%%I386_ONLY%%%%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/common/sense.pm
 %%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/%%ARCHNAME%%/Audio/Cuefile/Parser.pm
 %%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/%%ARCHNAME%%/Audio/Scan.pm
 %%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/%%ARCHNAME%%/Bundle/DBI.pm
@@ -865,7 +868,12 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/%%ARCHNAME%%/DBD/NullP.pm
 %%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/%%ARCHNAME%%/DBD/Proxy.pm
 %%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/%%ARCHNAME%%/DBD/SQLite.pm
+%%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/%%ARCHNAME%%/DBD/SQLite/Constants.pm
 %%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/%%ARCHNAME%%/DBD/SQLite/Cookbook.pod
+%%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/%%ARCHNAME%%/DBD/SQLite/Fulltext_search.pod
+%%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/%%ARCHNAME%%/DBD/SQLite/VirtualTable.pm
+%%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/%%ARCHNAME%%/DBD/SQLite/VirtualTable/FileContent.pm
+%%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/%%ARCHNAME%%/DBD/SQLite/VirtualTable/PerlData.pm
 %%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/%%ARCHNAME%%/DBD/Sponge.pm
 %%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/%%ARCHNAME%%/DBI.pm
 %%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/%%ARCHNAME%%/DBI/Changes.pm
@@ -1107,6 +1115,7 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/%%ARCHNAME%%/auto/YAML/XS/LibYAML/LibYAML.so
 %%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/%%ARCHNAME%%/auto/share/dist/DBD-SQLite/sqlite3.c
 %%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/%%ARCHNAME%%/auto/share/dist/DBD-SQLite/sqlite3.h
+%%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/%%ARCHNAME%%/auto/share/dist/DBD-SQLite/sqlite3ext.h
 %%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/%%ARCHNAME%%/common/sense.pm
 %%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/%%ARCHNAME%%/dbixs_rev.pl
 %%SLIMDIR%%/CPAN/arch/%%PERL_VER%%/%%ARCHNAME%%/perllocal.pod
@@ -1880,7 +1889,6 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/Slim/Buttons/Power.pm
 %%SLIMDIR%%/Slim/Buttons/RemoteTrackInfo.pm
 %%SLIMDIR%%/Slim/Buttons/ScreenSaver.pm
-%%SLIMDIR%%/Slim/Buttons/Search.pm
 %%SLIMDIR%%/Slim/Buttons/Settings.pm
 %%SLIMDIR%%/Slim/Buttons/SqueezeNetwork.pm
 %%SLIMDIR%%/Slim/Buttons/Synchronize.pm
@@ -1970,6 +1978,8 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/Slim/Networking/Async/Socket.pm
 %%SLIMDIR%%/Slim/Networking/Async/Socket/HTTP.pm
 %%SLIMDIR%%/Slim/Networking/Async/Socket/HTTPS.pm
+%%SLIMDIR%%/Slim/Networking/Async/Socket/HTTPSSocks.pm
+%%SLIMDIR%%/Slim/Networking/Async/Socket/HTTPSocks.pm
 %%SLIMDIR%%/Slim/Networking/Async/Socket/UDP.pm
 %%SLIMDIR%%/Slim/Networking/Discovery.pm
 %%SLIMDIR%%/Slim/Networking/Discovery/Players.pm
@@ -2256,6 +2266,11 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/Slim/Plugin/Podcast/Settings.pm
 %%SLIMDIR%%/Slim/Plugin/Podcast/install.xml
 %%SLIMDIR%%/Slim/Plugin/Podcast/strings.txt
+%%SLIMDIR%%/Slim/Plugin/PresetsEditor/HTML/EN/settings/presets.html
+%%SLIMDIR%%/Slim/Plugin/PresetsEditor/Plugin.pm
+%%SLIMDIR%%/Slim/Plugin/PresetsEditor/Settings.pm
+%%SLIMDIR%%/Slim/Plugin/PresetsEditor/install.xml
+%%SLIMDIR%%/Slim/Plugin/PresetsEditor/strings.txt
 %%SLIMDIR%%/Slim/Plugin/PreventStandby/HTML/EN/plugins/PreventStandby/settings/basic.html
 %%SLIMDIR%%/Slim/Plugin/PreventStandby/OSX.pm
 %%SLIMDIR%%/Slim/Plugin/PreventStandby/Plugin.pm
@@ -2273,9 +2288,11 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/Slim/Plugin/RSSNews/Settings.pm
 %%SLIMDIR%%/Slim/Plugin/RSSNews/install.xml
 %%SLIMDIR%%/Slim/Plugin/RSSNews/strings.txt
+%%SLIMDIR%%/Slim/Plugin/RandomPlay/DontStopTheMusic.pm
 %%SLIMDIR%%/Slim/Plugin/RandomPlay/HTML/EN/plugins/RandomPlay/html/images/icon.png
 %%SLIMDIR%%/Slim/Plugin/RandomPlay/HTML/EN/plugins/RandomPlay/html/images/icon_40x40_m.png
 %%SLIMDIR%%/Slim/Plugin/RandomPlay/HTML/EN/plugins/RandomPlay/list.html
+%%SLIMDIR%%/Slim/Plugin/RandomPlay/Mixer.pm
 %%SLIMDIR%%/Slim/Plugin/RandomPlay/Plugin.pm
 %%SLIMDIR%%/Slim/Plugin/RandomPlay/ProtocolHandler.pm
 %%SLIMDIR%%/Slim/Plugin/RandomPlay/install.xml
@@ -2460,7 +2477,6 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/Slim/Utils/OS/OSX.pm
 %%SLIMDIR%%/Slim/Utils/OS/ReadyNAS.pm
 %%SLIMDIR%%/Slim/Utils/OS/RedHat.pm
-%%SLIMDIR%%/Slim/Utils/OS/SqueezeOS.pm
 %%SLIMDIR%%/Slim/Utils/OS/Suse.pm
 %%SLIMDIR%%/Slim/Utils/OS/Synology.pm
 %%SLIMDIR%%/Slim/Utils/OS/Unix.pm

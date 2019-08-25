@@ -54,7 +54,6 @@ TEST_VARS_OFF=		CONTRIB_FLAGS=-t
 RESTRICTED=	Contains non-redistributable firmware, documentation, and images
 USERS=		${SLIMUSER}
 GROUPS=		${SLIMGROUP}
-EXTRA_PATCHES=	${FILESDIR}/vendorpatch-CPAN_buildme.sh
 
 DOCFILES=	Changelog*.html Installation.txt License*.txt
 CONFFILES=	convert.conf types.conf

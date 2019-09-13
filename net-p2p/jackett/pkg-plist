@@ -96,7 +96,6 @@
 %%DATADIR%%/Definitions/booktracker.yml
 %%DATADIR%%/Definitions/btbit.yml
 %%DATADIR%%/Definitions/btdb.yml
-%%DATADIR%%/Definitions/btdigg.yml
 %%DATADIR%%/Definitions/btgigs.yml
 %%DATADIR%%/Definitions/btkitty.yml
 %%DATADIR%%/Definitions/btnext.yml
@@ -160,7 +159,6 @@
 %%DATADIR%%/Definitions/gaytorrentru.yml
 %%DATADIR%%/Definitions/gdf76.yml
 %%DATADIR%%/Definitions/generationfree.yml
-%%DATADIR%%/Definitions/gfxnews.yml
 %%DATADIR%%/Definitions/gfxpeers.yml
 %%DATADIR%%/Definitions/gigatorrents.yml
 %%DATADIR%%/Definitions/girotorrent.yml
@@ -219,7 +217,6 @@
 %%DATADIR%%/Definitions/magnetdl.yml
 %%DATADIR%%/Definitions/majomparade.yml
 %%DATADIR%%/Definitions/marinetracker.yml
-%%DATADIR%%/Definitions/megabliz.yml
 %%DATADIR%%/Definitions/metal-iplay-ro.yml
 %%DATADIR%%/Definitions/metaltracker.yml
 %%DATADIR%%/Definitions/mkvcage.yml
@@ -311,8 +308,6 @@
 %%DATADIR%%/Definitions/theshow.yml
 %%DATADIR%%/Definitions/thetorrents.yml
 %%DATADIR%%/Definitions/thevault.yml
-%%DATADIR%%/Definitions/tigers-dl.yml
-%%DATADIR%%/Definitions/tntvillage.yml
 %%DATADIR%%/Definitions/tokyotosho.yml
 %%DATADIR%%/Definitions/torlock.yml
 %%DATADIR%%/Definitions/torrent-turk.yml
@@ -353,10 +348,8 @@
 %%DATADIR%%/Definitions/wihd.yml
 %%DATADIR%%/Definitions/world-of-tomorrow.yml
 %%DATADIR%%/Definitions/worldofp2p.yml
-%%DATADIR%%/Definitions/worldwidetorrents.yml
 %%DATADIR%%/Definitions/x-ite.me.yml
 %%DATADIR%%/Definitions/xbytes2.yml
-%%DATADIR%%/Definitions/xktorrent.yml
 %%DATADIR%%/Definitions/xtremefile.yml
 %%DATADIR%%/Definitions/xtremezone.yml
 %%DATADIR%%/Definitions/xwtorrents.yml

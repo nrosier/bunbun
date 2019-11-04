@@ -15,7 +15,7 @@ COMMENT=	Browser based analytics and search interface to ElasticSearch
 
 LICENSE=	APACHE20
 
-RUN_DEPENDS=	node10>=10.15.2:www/node10
+RUN_DEPENDS=	www/node
 
 CONFLICTS=	kibana[3-5]*
 

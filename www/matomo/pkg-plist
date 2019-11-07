@@ -8684,8 +8684,6 @@
 @dir %%WWWDIR%%/libs/bower_components/jquery-ui/themes
 @dir %%WWWDIR%%/libs/bower_components/materialize/bin
 @dir %%WWWDIR%%/plugins/Contents/screenshots
-@dir %%WWWDIR%%/plugins/ExampleTheme/images
-@dir %%WWWDIR%%/plugins/ExampleTheme/screenshots
 @dir(%%WWWOWN%%,%%WWWGRP%%,755) %%WWWDIR%%/tmp
 @dir(%%WWWOWN%%,%%WWWGRP%%,755) %%WWWDIR%%/tmp/cache
 @dir(%%WWWOWN%%,%%WWWGRP%%,755) %%WWWDIR%%/tmp/cache/tracker

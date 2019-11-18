@@ -93,7 +93,6 @@
 %%DATADIR%%/Definitions/bluebird.yml
 %%DATADIR%%/Definitions/blutopia.yml
 %%DATADIR%%/Definitions/booktracker.yml
-%%DATADIR%%/Definitions/btbit.yml
 %%DATADIR%%/Definitions/btdb.yml
 %%DATADIR%%/Definitions/btdigg.yml
 %%DATADIR%%/Definitions/btgigs.yml
@@ -165,16 +164,17 @@
 %%DATADIR%%/Definitions/girotorrent.yml
 %%DATADIR%%/Definitions/gktorrent.yml
 %%DATADIR%%/Definitions/glodls.yml
+%%DATADIR%%/Definitions/greeklegends.yml
 %%DATADIR%%/Definitions/greekteam.yml
 %%DATADIR%%/Definitions/hachede.yml
 %%DATADIR%%/Definitions/hamsterstudio.yml
-%%DATADIR%%/Definitions/hd4free.yml
 %%DATADIR%%/Definitions/hdarea.yml
 %%DATADIR%%/Definitions/hdbits.yml
 %%DATADIR%%/Definitions/hdbitscom.yml
 %%DATADIR%%/Definitions/hdcenter.yml
 %%DATADIR%%/Definitions/hdchina.yml
 %%DATADIR%%/Definitions/hdcity.yml
+%%DATADIR%%/Definitions/hddolby.yml
 %%DATADIR%%/Definitions/hdforever.yml
 %%DATADIR%%/Definitions/hdhome.yml
 %%DATADIR%%/Definitions/hdme.yml
@@ -192,7 +192,6 @@
 %%DATADIR%%/Definitions/idope.yml
 %%DATADIR%%/Definitions/ilcorsaroblu.yml
 %%DATADIR%%/Definitions/ilcorsaronero.yml
-%%DATADIR%%/Definitions/iloveclassics.yml
 %%DATADIR%%/Definitions/immortuos.yml
 %%DATADIR%%/Definitions/inperil.yml
 %%DATADIR%%/Definitions/insanetracker.yml
@@ -201,12 +200,10 @@
 %%DATADIR%%/Definitions/jpopsuki.yml
 %%DATADIR%%/Definitions/kapaki.yml
 %%DATADIR%%/Definitions/karagarga.yml
-%%DATADIR%%/Definitions/katcrs.yml
 %%DATADIR%%/Definitions/kickasstorrent-kathow.yml
 %%DATADIR%%/Definitions/kickasstorrent.yml
 %%DATADIR%%/Definitions/kinozal.yml
 %%DATADIR%%/Definitions/learnflakes.yml
-%%DATADIR%%/Definitions/lemencili.yml
 %%DATADIR%%/Definitions/leporno.yml
 %%DATADIR%%/Definitions/lesaloon.yml
 %%DATADIR%%/Definitions/libranet.yml
@@ -237,6 +234,7 @@
 %%DATADIR%%/Definitions/newstudiol.yml
 %%DATADIR%%/Definitions/nitro.yml
 %%DATADIR%%/Definitions/nnm-club.yml
+%%DATADIR%%/Definitions/nntt.yml
 %%DATADIR%%/Definitions/nostalgic.yml
 %%DATADIR%%/Definitions/nyaa-pantsu.yml
 %%DATADIR%%/Definitions/nyaasi.yml
@@ -246,6 +244,7 @@
 %%DATADIR%%/Definitions/passionetorrent.yml
 %%DATADIR%%/Definitions/peersfm.yml
 %%DATADIR%%/Definitions/piratbit.yml
+%%DATADIR%%/Definitions/piratbitl.yml
 %%DATADIR%%/Definitions/pixelcove.yml
 %%DATADIR%%/Definitions/pleasuredome.yml
 %%DATADIR%%/Definitions/polishsource.yml
@@ -344,6 +343,7 @@
 %%DATADIR%%/Definitions/twilight.yml
 %%DATADIR%%/Definitions/uhdbits.yml
 %%DATADIR%%/Definitions/underverse.yml
+%%DATADIR%%/Definitions/underversel.yml
 %%DATADIR%%/Definitions/unionfansub.yml
 %%DATADIR%%/Definitions/uniongang.yml
 %%DATADIR%%/Definitions/unlimitz.yml

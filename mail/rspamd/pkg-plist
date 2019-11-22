@@ -5,7 +5,6 @@ bin/rspamc-%%RSPAMDVERSION%%
 bin/rspamd
 bin/rspamd-%%RSPAMDVERSION%%
 bin/rspamd_stats
-%%CGP%%bin/rspamd-cgp-helper
 etc/newsyslog.conf.d/rspamd.newsyslog.conf
 %%ETCDIR%%/actions.conf
 %%ETCDIR%%/cgp.inc
@@ -166,8 +165,8 @@ man/man8/rspamd.8.gz
 %%DATADIR%%/lualib/lua_magic/init.lua
 %%DATADIR%%/lualib/lua_magic/patterns.lua
 %%DATADIR%%/lualib/lua_magic/types.lua
-%%DATADIR%%/lualib/lua_maps_expressions.lua
 %%DATADIR%%/lualib/lua_maps.lua
+%%DATADIR%%/lualib/lua_maps_expressions.lua
 %%DATADIR%%/lualib/lua_meta.lua
 %%DATADIR%%/lualib/lua_mime.lua
 %%DATADIR%%/lualib/lua_redis.lua
@@ -186,6 +185,7 @@ man/man8/rspamd.8.gz
 %%DATADIR%%/lualib/lua_scanners/sophos.lua
 %%DATADIR%%/lualib/lua_scanners/spamassassin.lua
 %%DATADIR%%/lualib/lua_scanners/vadesecure.lua
+%%DATADIR%%/lualib/lua_scanners/virustotal.lua
 %%DATADIR%%/lualib/lua_selectors/extractors.lua
 %%DATADIR%%/lualib/lua_selectors/init.lua
 %%DATADIR%%/lualib/lua_selectors/maps.lua
@@ -195,6 +195,7 @@ man/man8/rspamd.8.gz
 %%DATADIR%%/lualib/lua_stat.lua
 %%DATADIR%%/lualib/lua_tcp_sync.lua
 %%DATADIR%%/lualib/lua_util.lua
+%%DATADIR%%/lualib/lua_verdict.lua
 %%DATADIR%%/lualib/lupa.lua
 %%DATADIR%%/lualib/plugins_stats.lua
 %%DATADIR%%/lualib/rescore_utility.lua

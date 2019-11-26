@@ -88,6 +88,7 @@
 %%DATADIR%%/Definitions/bithorlo.yml
 %%DATADIR%%/Definitions/bithumen.yml
 %%DATADIR%%/Definitions/bitme.yml
+%%DATADIR%%/Definitions/bitru.yml
 %%DATADIR%%/Definitions/bitspyder.yml
 %%DATADIR%%/Definitions/bitturk.yml
 %%DATADIR%%/Definitions/bluebird.yml
@@ -124,13 +125,13 @@
 %%DATADIR%%/Definitions/desireleasers.yml
 %%DATADIR%%/Definitions/desitorrents.yml
 %%DATADIR%%/Definitions/diablotorrent.yml
-%%DATADIR%%/Definitions/digbt.yml
 %%DATADIR%%/Definitions/divteam.yml
 %%DATADIR%%/Definitions/dmhy.yml
 %%DATADIR%%/Definitions/documentarytorrents.yml
 %%DATADIR%%/Definitions/downloadville.yml
 %%DATADIR%%/Definitions/dragonworldreloaded.yml
 %%DATADIR%%/Definitions/dxdhd.yml
+%%DATADIR%%/Definitions/dxp.yml
 %%DATADIR%%/Definitions/ebookparadijs.yml
 %%DATADIR%%/Definitions/ebooks-shares.yml
 %%DATADIR%%/Definitions/efectodoppler.yml
@@ -148,6 +149,7 @@
 %%DATADIR%%/Definitions/fanoin.yml
 %%DATADIR%%/Definitions/femdomcult.yml
 %%DATADIR%%/Definitions/film-paleis.yml
+%%DATADIR%%/Definitions/firebit.yml
 %%DATADIR%%/Definitions/focusx.yml
 %%DATADIR%%/Definitions/freetorrent.yml
 %%DATADIR%%/Definitions/frozenlayer.yml
@@ -265,6 +267,7 @@
 %%DATADIR%%/Definitions/rockbox.yml
 %%DATADIR%%/Definitions/rodvd.yml
 %%DATADIR%%/Definitions/rptorrents.yml
+%%DATADIR%%/Definitions/rus-media.yml
 %%DATADIR%%/Definitions/rutor.yml
 %%DATADIR%%/Definitions/scenefz.yml
 %%DATADIR%%/Definitions/scenepalace.yml
@@ -325,6 +328,7 @@
 %%DATADIR%%/Definitions/torrenting.yml
 %%DATADIR%%/Definitions/torrentland.yml
 %%DATADIR%%/Definitions/torrentlt.yml
+%%DATADIR%%/Definitions/torrentparadise.yml
 %%DATADIR%%/Definitions/torrentproject2.yml
 %%DATADIR%%/Definitions/torrentquest.yml
 %%DATADIR%%/Definitions/torrentsectorcrew.yml

@@ -2930,6 +2930,7 @@
 %%WWWDIR%%/plugins/GeoIp2/lang/de.json
 %%WWWDIR%%/plugins/GeoIp2/lang/el.json
 %%WWWDIR%%/plugins/GeoIp2/lang/en.json
+%%WWWDIR%%/plugins/GeoIp2/lang/es-ar.json
 %%WWWDIR%%/plugins/GeoIp2/lang/es.json
 %%WWWDIR%%/plugins/GeoIp2/lang/fi.json
 %%WWWDIR%%/plugins/GeoIp2/lang/fr.json
@@ -3333,6 +3334,7 @@
 %%WWWDIR%%/plugins/IntranetMeasurable/lang/de.json
 %%WWWDIR%%/plugins/IntranetMeasurable/lang/el.json
 %%WWWDIR%%/plugins/IntranetMeasurable/lang/en.json
+%%WWWDIR%%/plugins/IntranetMeasurable/lang/es-ar.json
 %%WWWDIR%%/plugins/IntranetMeasurable/lang/es.json
 %%WWWDIR%%/plugins/IntranetMeasurable/lang/fi.json
 %%WWWDIR%%/plugins/IntranetMeasurable/lang/fr.json
@@ -3738,6 +3740,7 @@
 %%WWWDIR%%/plugins/MobileAppMeasurable/lang/de.json
 %%WWWDIR%%/plugins/MobileAppMeasurable/lang/el.json
 %%WWWDIR%%/plugins/MobileAppMeasurable/lang/en.json
+%%WWWDIR%%/plugins/MobileAppMeasurable/lang/es-ar.json
 %%WWWDIR%%/plugins/MobileAppMeasurable/lang/es.json
 %%WWWDIR%%/plugins/MobileAppMeasurable/lang/et.json
 %%WWWDIR%%/plugins/MobileAppMeasurable/lang/fi.json
@@ -4138,6 +4141,7 @@
 %%WWWDIR%%/plugins/Morpheus/icons/dist/brand/Zonda.png
 %%WWWDIR%%/plugins/Morpheus/icons/dist/brand/Zopo.png
 %%WWWDIR%%/plugins/Morpheus/icons/dist/brand/Zync.png
+%%WWWDIR%%/plugins/Morpheus/icons/dist/brand/_wn.png
 %%WWWDIR%%/plugins/Morpheus/icons/dist/brand/bq.png
 %%WWWDIR%%/plugins/Morpheus/icons/dist/brand/eTouch.png
 %%WWWDIR%%/plugins/Morpheus/icons/dist/brand/i-mobile.png
@@ -4148,7 +4152,6 @@
 %%WWWDIR%%/plugins/Morpheus/icons/dist/brand/iView.png
 %%WWWDIR%%/plugins/Morpheus/icons/dist/brand/teXet.png
 %%WWWDIR%%/plugins/Morpheus/icons/dist/brand/unk.png
-%%WWWDIR%%/plugins/Morpheus/icons/dist/brand/öwn.png
 %%WWWDIR%%/plugins/Morpheus/icons/dist/browsers/2B.png
 %%WWWDIR%%/plugins/Morpheus/icons/dist/browsers/36.png
 %%WWWDIR%%/plugins/Morpheus/icons/dist/browsers/3B.png
@@ -4333,6 +4336,7 @@
 %%WWWDIR%%/plugins/Morpheus/icons/dist/devices/phablet.png
 %%WWWDIR%%/plugins/Morpheus/icons/dist/devices/portable_media_player.png
 %%WWWDIR%%/plugins/Morpheus/icons/dist/devices/smart_display.png
+%%WWWDIR%%/plugins/Morpheus/icons/dist/devices/smart_speaker.png
 %%WWWDIR%%/plugins/Morpheus/icons/dist/devices/smartphone.png
 %%WWWDIR%%/plugins/Morpheus/icons/dist/devices/tablet.png
 %%WWWDIR%%/plugins/Morpheus/icons/dist/devices/tv.png
@@ -7757,11 +7761,6 @@
 %%WWWDIR%%/vendor/monolog/monolog/CHANGELOG.md
 %%WWWDIR%%/vendor/monolog/monolog/LICENSE
 %%WWWDIR%%/vendor/monolog/monolog/README.md
-%%WWWDIR%%/vendor/monolog/monolog/doc/01-usage.md
-%%WWWDIR%%/vendor/monolog/monolog/doc/02-handlers-formatters-processors.md
-%%WWWDIR%%/vendor/monolog/monolog/doc/03-utilities.md
-%%WWWDIR%%/vendor/monolog/monolog/doc/04-extending.md
-%%WWWDIR%%/vendor/monolog/monolog/doc/sockets.md
 %%WWWDIR%%/vendor/monolog/monolog/src/Monolog/ErrorHandler.php
 %%WWWDIR%%/vendor/monolog/monolog/src/Monolog/Formatter/ChromePHPFormatter.php
 %%WWWDIR%%/vendor/monolog/monolog/src/Monolog/Formatter/ElasticaFormatter.php
@@ -7801,6 +7800,8 @@
 %%WWWDIR%%/vendor/monolog/monolog/src/Monolog/Handler/FirePHPHandler.php
 %%WWWDIR%%/vendor/monolog/monolog/src/Monolog/Handler/FleepHookHandler.php
 %%WWWDIR%%/vendor/monolog/monolog/src/Monolog/Handler/FlowdockHandler.php
+%%WWWDIR%%/vendor/monolog/monolog/src/Monolog/Handler/FormattableHandlerInterface.php
+%%WWWDIR%%/vendor/monolog/monolog/src/Monolog/Handler/FormattableHandlerTrait.php
 %%WWWDIR%%/vendor/monolog/monolog/src/Monolog/Handler/GelfHandler.php
 %%WWWDIR%%/vendor/monolog/monolog/src/Monolog/Handler/GroupHandler.php
 %%WWWDIR%%/vendor/monolog/monolog/src/Monolog/Handler/HandlerInterface.php
@@ -7818,6 +7819,8 @@
 %%WWWDIR%%/vendor/monolog/monolog/src/Monolog/Handler/NewRelicHandler.php
 %%WWWDIR%%/vendor/monolog/monolog/src/Monolog/Handler/NullHandler.php
 %%WWWDIR%%/vendor/monolog/monolog/src/Monolog/Handler/PHPConsoleHandler.php
+%%WWWDIR%%/vendor/monolog/monolog/src/Monolog/Handler/ProcessableHandlerInterface.php
+%%WWWDIR%%/vendor/monolog/monolog/src/Monolog/Handler/ProcessableHandlerTrait.php
 %%WWWDIR%%/vendor/monolog/monolog/src/Monolog/Handler/PsrHandler.php
 %%WWWDIR%%/vendor/monolog/monolog/src/Monolog/Handler/PushoverHandler.php
 %%WWWDIR%%/vendor/monolog/monolog/src/Monolog/Handler/RavenHandler.php
@@ -7856,7 +7859,7 @@
 %%WWWDIR%%/vendor/monolog/monolog/src/Monolog/SignalHandler.php
 %%WWWDIR%%/vendor/monolog/monolog/src/Monolog/Utils.php
 %%WWWDIR%%/vendor/mustangostang/spyc/COPYING
-%%WWWDIR%%/vendor/mustangostang/spyc/README
+%%WWWDIR%%/vendor/mustangostang/spyc/README.md
 %%WWWDIR%%/vendor/mustangostang/spyc/Spyc.php
 %%WWWDIR%%/vendor/mustangostang/spyc/examples/yaml-dump.php
 %%WWWDIR%%/vendor/mustangostang/spyc/examples/yaml-load.php
@@ -8054,6 +8057,7 @@
 %%WWWDIR%%/vendor/piwik/ini/src/IniReadingException.php
 %%WWWDIR%%/vendor/piwik/ini/src/IniWriter.php
 %%WWWDIR%%/vendor/piwik/ini/src/IniWritingException.php
+%%WWWDIR%%/vendor/piwik/network/LICENSE
 %%WWWDIR%%/vendor/piwik/network/README.md
 %%WWWDIR%%/vendor/piwik/network/src/IP.php
 %%WWWDIR%%/vendor/piwik/network/src/IPUtils.php
@@ -8249,6 +8253,7 @@
 %%WWWDIR%%/vendor/szymach/c-pchart/src/Resources/palettes/summer.color
 %%WWWDIR%%/vendor/tecnickcom/tcpdf/LICENSE.TXT
 %%WWWDIR%%/vendor/tecnickcom/tcpdf/README.md
+%%WWWDIR%%/vendor/tecnickcom/tcpdf/VERSION
 %%WWWDIR%%/vendor/tecnickcom/tcpdf/config/tcpdf_config.php
 %%WWWDIR%%/vendor/tecnickcom/tcpdf/fonts/aealarabiya.ctg.z
 %%WWWDIR%%/vendor/tecnickcom/tcpdf/fonts/aealarabiya.php

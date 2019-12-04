@@ -20,7 +20,7 @@ LIB_DEPENDS=	libboost_chrono.so:devel/boost-libs \
 USES=		cmake compiler:c++14-lang iconv:wchar_t libtool pathfix pkgconfig ssl
 USE_LDCONFIG=	yes
 
-SHLIB_VER=	9
+SHLIB_VER=	10
 PLIST_SUB+=	SHLIB_VER="${SHLIB_VER}"
 
 DOCFILES=	AUTHORS ChangeLog

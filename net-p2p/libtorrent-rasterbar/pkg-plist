@@ -93,7 +93,7 @@ include/libtorrent/disk_io_thread_pool.hpp
 include/libtorrent/disk_job_pool.hpp
 include/libtorrent/disk_observer.hpp
 include/libtorrent/download_priority.hpp
-include/libtorrent/ed2551%%SHLIB_VER%%.hpp
+include/libtorrent/ed25519.hpp
 include/libtorrent/entry.hpp
 include/libtorrent/enum_net.hpp
 include/libtorrent/error.hpp
@@ -135,7 +135,7 @@ include/libtorrent/kademlia/dht_storage.hpp
 include/libtorrent/kademlia/dht_tracker.hpp
 include/libtorrent/kademlia/direct_request.hpp
 include/libtorrent/kademlia/dos_blocker.hpp
-include/libtorrent/kademlia/ed2551%%SHLIB_VER%%.hpp
+include/libtorrent/kademlia/ed25519.hpp
 include/libtorrent/kademlia/find_data.hpp
 include/libtorrent/kademlia/get_item.hpp
 include/libtorrent/kademlia/get_peers.hpp
@@ -243,5 +243,5 @@ include/libtorrent/web_peer_connection.hpp
 include/libtorrent/write_resume_data.hpp
 include/libtorrent/xml_parse.hpp
 lib/libtorrent-rasterbar.so
-lib/libtorrent-rasterbar.so.1.2.2
+lib/libtorrent-rasterbar.so.%%SHLIB_VER%%
 libdata/pkgconfig/libtorrent-rasterbar.pc

@@ -220,7 +220,6 @@ include/libtorrent/string_view.hpp
 include/libtorrent/tailqueue.hpp
 include/libtorrent/time.hpp
 include/libtorrent/timestamp_history.hpp
-include/libtorrent/tommath.h.rej
 include/libtorrent/torrent.hpp
 include/libtorrent/torrent_flags.hpp
 include/libtorrent/torrent_handle.hpp
@@ -243,12 +242,6 @@ include/libtorrent/web_connection_base.hpp
 include/libtorrent/web_peer_connection.hpp
 include/libtorrent/write_resume_data.hpp
 include/libtorrent/xml_parse.hpp
-lib/cmake/LibtorrentRasterbar/LibtorrentRasterbarConfig.cmake
-lib/cmake/LibtorrentRasterbar/LibtorrentRasterbarConfigVersion.cmake
-lib/cmake/LibtorrentRasterbar/LibtorrentRasterbarTargets-%%CMAKE_BUILD_TYPE%%.cmake
-lib/cmake/LibtorrentRasterbar/LibtorrentRasterbarTargets.cmake
 lib/libtorrent-rasterbar.so
-lib/libtorrent-rasterbar.so.1.2.2
-lib/libtorrent-rasterbar.so.10
+lib/libtorrent-rasterbar.so.%%SHLIB_VER%%
 libdata/pkgconfig/libtorrent-rasterbar.pc
-share/cmake/Modules/FindLibtorrentRasterbar.cmake

@@ -90,12 +90,14 @@
 %%DATADIR%%/Definitions/bitme.yml
 %%DATADIR%%/Definitions/bitru.yml
 %%DATADIR%%/Definitions/bitspyder.yml
+%%DATADIR%%/Definitions/bittorrentam.yml
 %%DATADIR%%/Definitions/bitturk.yml
 %%DATADIR%%/Definitions/bluebird.yml
 %%DATADIR%%/Definitions/blutopia.yml
 %%DATADIR%%/Definitions/booktracker.yml
 %%DATADIR%%/Definitions/btdb.yml
 %%DATADIR%%/Definitions/btdigg.yml
+%%DATADIR%%/Definitions/btetree.yml
 %%DATADIR%%/Definitions/btgigs.yml
 %%DATADIR%%/Definitions/btnext.yml
 %%DATADIR%%/Definitions/btschool.yml
@@ -141,6 +143,7 @@
 %%DATADIR%%/Definitions/eniahd.yml
 %%DATADIR%%/Definitions/esharenet.yml
 %%DATADIR%%/Definitions/estone.yml
+%%DATADIR%%/Definitions/estrenosdtl.yml
 %%DATADIR%%/Definitions/ethor.yml
 %%DATADIR%%/Definitions/ettv.yml
 %%DATADIR%%/Definitions/extratorrent-ag.yml
@@ -170,6 +173,7 @@
 %%DATADIR%%/Definitions/greekteam.yml
 %%DATADIR%%/Definitions/hachede.yml
 %%DATADIR%%/Definitions/hamsterstudio.yml
+%%DATADIR%%/Definitions/hd4fans.yml
 %%DATADIR%%/Definitions/hdarea.yml
 %%DATADIR%%/Definitions/hdbits.yml
 %%DATADIR%%/Definitions/hdbitscom.yml
@@ -181,10 +185,12 @@
 %%DATADIR%%/Definitions/hdhome.yml
 %%DATADIR%%/Definitions/hdme.yml
 %%DATADIR%%/Definitions/hdreactor.yml
+%%DATADIR%%/Definitions/hdroute.yml
 %%DATADIR%%/Definitions/hdsky.yml
 %%DATADIR%%/Definitions/hdspain.yml
 %%DATADIR%%/Definitions/hdtorrentsit.yml
 %%DATADIR%%/Definitions/hdturk.yml
+%%DATADIR%%/Definitions/hdu.yml
 %%DATADIR%%/Definitions/hdzone.yml
 %%DATADIR%%/Definitions/hon3yhd-net.yml
 %%DATADIR%%/Definitions/hon3yhd.yml
@@ -206,6 +212,7 @@
 %%DATADIR%%/Definitions/kickasstorrent.yml
 %%DATADIR%%/Definitions/kinozal.yml
 %%DATADIR%%/Definitions/learnflakes.yml
+%%DATADIR%%/Definitions/legittorrents.yml
 %%DATADIR%%/Definitions/leporno.yml
 %%DATADIR%%/Definitions/lesaloon.yml
 %%DATADIR%%/Definitions/libranet.yml
@@ -219,10 +226,10 @@
 %%DATADIR%%/Definitions/marinetracker.yml
 %%DATADIR%%/Definitions/metal-iplay-ro.yml
 %%DATADIR%%/Definitions/metaltracker.yml
-%%DATADIR%%/Definitions/mkvcage.yml
 %%DATADIR%%/Definitions/mononokebt.yml
 %%DATADIR%%/Definitions/monova.yml
 %%DATADIR%%/Definitions/movcr.yml
+%%DATADIR%%/Definitions/moviesdvdr.yml
 %%DATADIR%%/Definitions/mteamtp.yml
 %%DATADIR%%/Definitions/music-master.yml
 %%DATADIR%%/Definitions/mvgroupforum.yml
@@ -263,6 +270,7 @@
 %%DATADIR%%/Definitions/redstartorrent.yml
 %%DATADIR%%/Definitions/retroflix.yml
 %%DATADIR%%/Definitions/rgu.yml
+%%DATADIR%%/Definitions/riperam.yml
 %%DATADIR%%/Definitions/rns.yml
 %%DATADIR%%/Definitions/rockbox.yml
 %%DATADIR%%/Definitions/rodvd.yml
@@ -289,6 +297,7 @@
 %%DATADIR%%/Definitions/speedtorrentreloaded.yml
 %%DATADIR%%/Definitions/sporthd.yml
 %%DATADIR%%/Definitions/sportscult.yml
+%%DATADIR%%/Definitions/springsunday.yml
 %%DATADIR%%/Definitions/sukebei-pantsu.yml
 %%DATADIR%%/Definitions/sukebeinyaasi.yml
 %%DATADIR%%/Definitions/takeabyte.yml
@@ -315,12 +324,14 @@
 %%DATADIR%%/Definitions/thevault.yml
 %%DATADIR%%/Definitions/tokyotosho.yml
 %%DATADIR%%/Definitions/torlock.yml
+%%DATADIR%%/Definitions/toros.yml
 %%DATADIR%%/Definitions/torrent-explosiv.yml
 %%DATADIR%%/Definitions/torrent-turk.yml
 %%DATADIR%%/Definitions/torrent9.yml
 %%DATADIR%%/Definitions/torrent9clone.yml
 %%DATADIR%%/Definitions/torrentbd.yml
 %%DATADIR%%/Definitions/torrentccf.yml
+%%DATADIR%%/Definitions/torrentdownload.yml
 %%DATADIR%%/Definitions/torrentdownloads.yml
 %%DATADIR%%/Definitions/torrentfunk.yml
 %%DATADIR%%/Definitions/torrentgalaxyorg.yml

@@ -1,7 +1,7 @@
 # $FreeBSD: head/net-p2p/jackett/Makefile 492678 2019-02-11 09:18:01Z kai $
 
 PORTNAME=	jackett
-PORTVERSION=	0.12.1028
+PORTVERSION=	0.12.1096
 #PORTREVISION=	1
 CATEGORIES=	net-p2p
 MASTER_SITES=	https://github.com/Jackett/Jackett/releases/download/

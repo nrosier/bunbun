@@ -2,7 +2,7 @@
 # $FreeBSD: head/textproc/apache-solr/Makefile 508198 2019-08-05 19:02:15Z mfechner $
 
 PORTNAME=	apache-solr
-PORTVERSION=	8.3.0
+PORTVERSION=	8.3.1
 CATEGORIES=	textproc java
 MASTER_SITES=	APACHE/lucene/solr/${PORTVERSION}
 DISTNAME=	solr-${PORTVERSION}

@@ -1,7 +1,7 @@
 # $FreeBSD: head/audio/logitechmediaserver/Makefile 488090 2018-12-22 11:36:08Z pi $
 
 PORTNAME=	logitechmediaserver
-PORTVERSION=	7.9.2.g2019.08.16
+PORTVERSION=	7.9.2.g2019.12.09
 CATEGORIES=	audio
 
 MAINTAINER=	mark@tranquillussoftware.co.uk
@@ -21,8 +21,8 @@ LIB_DEPENDS=	libgd.so:graphics/gd
 
 USES=		gettext-runtime gmake perl5 shebangfix
 USE_GITHUB=	yes
-GH_TUPLE=	Logitech:slimserver:25f77d7 \
-		Logitech:slimserver-vendor:8b05092:vendor
+GH_TUPLE=	Logitech:slimserver:314af85 \
+		Logitech:slimserver-vendor:6265ea5:vendor
 USE_RC_SUBR=	logitechmediaserver
 SHEBANG_FILES=	Bin/darwin/check-update.pl \
 		Bin/dbish \

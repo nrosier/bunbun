@@ -19,9 +19,6 @@ LIB_DEPENDS=	libboost_chrono.so:devel/boost-libs \
 USES=		cmake compiler:c++14-lang iconv:wchar_t libtool pathfix pkgconfig python:2.7,test shebangfix ssl
 LDFLAGS+=	-L${LOCALBASE}/lib ${ICONV_LIB}
 SHEBANG_FILES=	test/socks.py test/web_server.py
-USE_GITHUB=	yes
-GH_ACCOUNT=	arvidn
-GH_PROJECT=	libtorrent
 USE_LDCONFIG=	yes
 TEST_TARGET=	test
 

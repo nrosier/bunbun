@@ -2,9 +2,9 @@
 # $FreeBSD: head/net-p2p/libtorrent-rasterbar/Makefile 519824 2019-12-11 17:53:48Z jbeich $
 
 PORTNAME=	libtorrent-rasterbar
-DISTVERSION=	1.2.2
+DISTVERSIONPREFIX=	libtorrent-
+DISTVERSION=	1_2_2
 CATEGORIES=	net-p2p
-MASTER_SITES=	https://github.com/arvidn/libtorrent/releases/download/libtorrent-${PORTVERSION:S/./_/g}/
 
 MAINTAINER=	yuri@FreeBSD.org
 COMMENT=	C++ library implementing a BitTorrent client
@@ -19,6 +19,9 @@ LIB_DEPENDS=	libboost_chrono.so:devel/boost-libs \
 USES=		cmake compiler:c++14-lang iconv:wchar_t libtool pathfix pkgconfig python:2.7,test shebangfix ssl
 LDFLAGS+=	-L${LOCALBASE}/lib ${ICONV_LIB}
 SHEBANG_FILES=	test/socks.py test/web_server.py
+USE_GITHUB=	yes
+GH_ACCOUNT=	avidn
+GH_PROJECT=	libtorrent
 USE_LDCONFIG=	yes
 TEST_TARGET=	test
 

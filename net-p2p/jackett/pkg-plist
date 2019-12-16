@@ -6,12 +6,19 @@
 %%DATADIR%%/CloudflareSolverRe.dll
 %%DATADIR%%/CommandLine.dll
 %%DATADIR%%/Content/animate.css
+%%DATADIR%%/Content/apple-touch-icon-114x114.png
+%%DATADIR%%/Content/apple-touch-icon-120x120.png
+%%DATADIR%%/Content/apple-touch-icon-144x144.png
+%%DATADIR%%/Content/apple-touch-icon-152x152.png
+%%DATADIR%%/Content/apple-touch-icon-180x180.png
+%%DATADIR%%/Content/apple-touch-icon-57x57.png
+%%DATADIR%%/Content/apple-touch-icon-72x72.png
+%%DATADIR%%/Content/apple-touch-icon-76x76.png
+%%DATADIR%%/Content/apple-touch-icon.png
 %%DATADIR%%/Content/binding_dark.png
 %%DATADIR%%/Content/bootstrap/bootstrap.min.css
 %%DATADIR%%/Content/bootstrap/bootstrap.min.js
 %%DATADIR%%/Content/common.js
-%%DATADIR%%/Content/congruent_outline.png
-%%DATADIR%%/Content/crissXcross.png
 %%DATADIR%%/Content/css/bootstrap-multiselect.css
 %%DATADIR%%/Content/css/font-awesome.min.css
 %%DATADIR%%/Content/css/jquery.dataTables.min.css
@@ -80,6 +87,7 @@
 %%DATADIR%%/Definitions/awesomehd.yml
 %%DATADIR%%/Definitions/backups.yml
 %%DATADIR%%/Definitions/baibako.yml
+%%DATADIR%%/Definitions/beyond-hd-oneurl.yml
 %%DATADIR%%/Definitions/beyond-hd.yml
 %%DATADIR%%/Definitions/bigfangroup.yml
 %%DATADIR%%/Definitions/bigtorrent.yml
@@ -101,6 +109,7 @@
 %%DATADIR%%/Definitions/btgigs.yml
 %%DATADIR%%/Definitions/btnext.yml
 %%DATADIR%%/Definitions/btschool.yml
+%%DATADIR%%/Definitions/btsow.yml
 %%DATADIR%%/Definitions/carpathians.yml
 %%DATADIR%%/Definitions/cartoonchaos.yml
 %%DATADIR%%/Definitions/casatorrent.yml
@@ -120,7 +129,6 @@
 %%DATADIR%%/Definitions/crazyspirits.yml
 %%DATADIR%%/Definitions/crnaberza.yml
 %%DATADIR%%/Definitions/cztorrent.yml
-%%DATADIR%%/Definitions/dark-shadow.yml
 %%DATADIR%%/Definitions/datascene.yml
 %%DATADIR%%/Definitions/deildu.yml
 %%DATADIR%%/Definitions/demonoid.yml
@@ -232,6 +240,7 @@
 %%DATADIR%%/Definitions/moviesdvdr.yml
 %%DATADIR%%/Definitions/mteamtp.yml
 %%DATADIR%%/Definitions/music-master.yml
+%%DATADIR%%/Definitions/muziekfabriek.yml
 %%DATADIR%%/Definitions/mvgroupforum.yml
 %%DATADIR%%/Definitions/mvgroupmain.yml
 %%DATADIR%%/Definitions/myspleen.yml
@@ -282,6 +291,7 @@
 %%DATADIR%%/Definitions/scenerush.yml
 %%DATADIR%%/Definitions/sdbits.yml
 %%DATADIR%%/Definitions/seedfile.yml
+%%DATADIR%%/Definitions/seedpeer.yml
 %%DATADIR%%/Definitions/shareisland.yml
 %%DATADIR%%/Definitions/sharespacedb.yml
 %%DATADIR%%/Definitions/shareuniversity.yml
@@ -323,6 +333,7 @@
 %%DATADIR%%/Definitions/thetorrents.yml
 %%DATADIR%%/Definitions/thevault.yml
 %%DATADIR%%/Definitions/tokyotosho.yml
+%%DATADIR%%/Definitions/topnow.yml
 %%DATADIR%%/Definitions/torlock.yml
 %%DATADIR%%/Definitions/toros.yml
 %%DATADIR%%/Definitions/torrent-explosiv.yml

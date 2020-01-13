@@ -4,7 +4,7 @@
 PORTNAME=	motion
 PORTVERSION=	4.2.2
 DISTVERSIONPREFIX=	release-
-PORTREVISION=	10
+#PORTREVISION=	10
 CATEGORIES=	multimedia
 
 MAINTAINER=	ports@FreeBSD.org
@@ -33,11 +33,13 @@ PLIST_FILES=	bin/motion \
 		man/man1/motion.1.gz \
 		"@sample ${ETCDIR}/motion.conf.sample" \
 		"@dir ${ETCDIR}/conf.d"
-PORTDOCS=	CHANGELOG CREDITS README.md README.FreeBSD \
+PORTDOCS=	CHANGELOG CREDITS README.md \
 		motion_guide.html mask1.png normal.jpg \
 		outputmotion1.jpg outputnormal1.jpg
 PORTEXAMPLES=	camera1-dist.conf camera2-dist.conf \
 		camera3-dist.conf camera4-dist.conf
+
+LIB_DEPENDS=	libmicrohttpd.so:www/libmicrohttpd
 
 OPTIONS_DEFINE=		DOCS EXAMPLES FFMPEG MYSQL PGSQL SQLITE3
 OPTIONS_RADIO=		VIDEO
@@ -87,9 +89,6 @@ post-patch:
 # Fix pidfile path
 	@${REINPLACE_CMD} -e \
 		's|/run/motion|/run|' ${WRKSRC}/motion-dist.conf.in
-# Fix warnings about mismatched format specifiers (Fixed upstream in dbd7282)
-	@${REINPLACE_CMD} -e \
-		's|%hd|%d|g;s|%hu|%u|g;s|%Zu|%zu|g' ${WRKSRC}/webhttpd.c ${WRKSRC}/stream.c
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/motion ${STAGEDIR}${PREFIX}/bin

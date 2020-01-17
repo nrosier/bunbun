@@ -49,6 +49,7 @@
 %%WWWDIR%%/core/Archive/DataTableFactory.php
 %%WWWDIR%%/core/Archive/Parameters.php
 %%WWWDIR%%/core/ArchiveProcessor.php
+%%WWWDIR%%/core/ArchiveProcessor/ArchivingStatus.php
 %%WWWDIR%%/core/ArchiveProcessor/Loader.php
 %%WWWDIR%%/core/ArchiveProcessor/Parameters.php
 %%WWWDIR%%/core/ArchiveProcessor/PluginsArchiver.php
@@ -123,6 +124,7 @@
 %%WWWDIR%%/core/DataAccess/ArchiveTableCreator.php
 %%WWWDIR%%/core/DataAccess/ArchiveTableDao.php
 %%WWWDIR%%/core/DataAccess/ArchiveWriter.php
+%%WWWDIR%%/core/DataAccess/ArchivingDbAdapter.php
 %%WWWDIR%%/core/DataAccess/LogAggregator.php
 %%WWWDIR%%/core/DataAccess/LogQueryBuilder.php
 %%WWWDIR%%/core/DataAccess/LogQueryBuilder/JoinGenerator.php
@@ -359,6 +361,7 @@
 %%WWWDIR%%/core/Settings/Setting.php
 %%WWWDIR%%/core/Settings/Settings.php
 %%WWWDIR%%/core/Settings/Storage/Backend/BackendInterface.php
+%%WWWDIR%%/core/Settings/Storage/Backend/BaseSettingsTable.php
 %%WWWDIR%%/core/Settings/Storage/Backend/Cache.php
 %%WWWDIR%%/core/Settings/Storage/Backend/Config.php
 %%WWWDIR%%/core/Settings/Storage/Backend/MeasurableSettingsTable.php
@@ -569,6 +572,7 @@
 %%WWWDIR%%/core/Updates/3.11.0-b1.php
 %%WWWDIR%%/core/Updates/3.12.0-b1.php
 %%WWWDIR%%/core/Updates/3.12.0-b7.php
+%%WWWDIR%%/core/Updates/3.13.1-b2.php
 %%WWWDIR%%/core/Updates/3.5.0-b2.php
 %%WWWDIR%%/core/Updates/3.5.0-b4.php
 %%WWWDIR%%/core/Updates/3.5.0-rc2.php
@@ -2079,8 +2083,8 @@
 %%WWWDIR%%/plugins/CoreUpdater/Model.php
 %%WWWDIR%%/plugins/CoreUpdater/NoUpdatesFoundException.php
 %%WWWDIR%%/plugins/CoreUpdater/ReleaseChannel.php
-%%WWWDIR%%/plugins/CoreUpdater/ReleaseChannel/Latest2XBeta.php
-%%WWWDIR%%/plugins/CoreUpdater/ReleaseChannel/Latest2XStable.php
+%%WWWDIR%%/plugins/CoreUpdater/ReleaseChannel/Latest3XBeta.php
+%%WWWDIR%%/plugins/CoreUpdater/ReleaseChannel/Latest3XStable.php
 %%WWWDIR%%/plugins/CoreUpdater/ReleaseChannel/LatestBeta.php
 %%WWWDIR%%/plugins/CoreUpdater/ReleaseChannel/LatestStable.php
 %%WWWDIR%%/plugins/CoreUpdater/SystemSettings.php
@@ -2936,6 +2940,7 @@
 %%WWWDIR%%/plugins/GeoIp2/lang/fr.json
 %%WWWDIR%%/plugins/GeoIp2/lang/it.json
 %%WWWDIR%%/plugins/GeoIp2/lang/ja.json
+%%WWWDIR%%/plugins/GeoIp2/lang/lt.json
 %%WWWDIR%%/plugins/GeoIp2/lang/nl.json
 %%WWWDIR%%/plugins/GeoIp2/lang/pl.json
 %%WWWDIR%%/plugins/GeoIp2/lang/pt-br.json
@@ -6653,6 +6658,7 @@
 %%WWWDIR%%/plugins/TwoFactorAuth/lang/sv.json
 %%WWWDIR%%/plugins/TwoFactorAuth/lang/tr.json
 %%WWWDIR%%/plugins/TwoFactorAuth/lang/zh-cn.json
+%%WWWDIR%%/plugins/TwoFactorAuth/lang/zh-tw.json
 %%WWWDIR%%/plugins/TwoFactorAuth/stylesheets/twofactorauth.less
 %%WWWDIR%%/plugins/TwoFactorAuth/templates/_setupTwoFactorAuth.twig
 %%WWWDIR%%/plugins/TwoFactorAuth/templates/_showRecoveryCodes.twig
@@ -7734,6 +7740,7 @@
 %%WWWDIR%%/vendor/matomo/referrer-spam-blacklist/CONTRIBUTING.md
 %%WWWDIR%%/vendor/matomo/referrer-spam-blacklist/README.md
 %%WWWDIR%%/vendor/matomo/referrer-spam-blacklist/spammers.txt
+%%WWWDIR%%/vendor/matomo/searchengine-and-social-list/LICENSE
 %%WWWDIR%%/vendor/matomo/searchengine-and-social-list/README.md
 %%WWWDIR%%/vendor/matomo/searchengine-and-social-list/SearchEngines.yml
 %%WWWDIR%%/vendor/matomo/searchengine-and-social-list/Socials.yml

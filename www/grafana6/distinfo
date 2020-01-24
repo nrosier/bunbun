@@ -1,0 +1,5 @@
+TIMESTAMP = 1579878018
+SHA256 (grafana-6.5.3.linux-amd64.tar.gz) = 02fe78f1d6842e043ca61a64272dd7dfdb4103486f163501b08a923f0f0452be
+SIZE (grafana-6.5.3.linux-amd64.tar.gz) = 61041681
+SHA256 (grafana-grafana-v6.5.3_GH0.tar.gz) = 4c6769317421097035d4f92ff8392ecc1ecb401dcc94d31a7c897c73f1f9b6b4
+SIZE (grafana-grafana-v6.5.3_GH0.tar.gz) = 14697029

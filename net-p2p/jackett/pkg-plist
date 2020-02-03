@@ -106,6 +106,7 @@
 %%DATADIR%%/Definitions/booktracker.yml
 %%DATADIR%%/Definitions/brasiltracker.yml
 %%DATADIR%%/Definitions/broadcity.yml
+%%DATADIR%%/Definitions/brobits.yml
 %%DATADIR%%/Definitions/btdb.yml
 %%DATADIR%%/Definitions/btdigg.yml
 %%DATADIR%%/Definitions/btetree.yml
@@ -299,6 +300,7 @@
 %%DATADIR%%/Definitions/rodvd.yml
 %%DATADIR%%/Definitions/rptorrents.yml
 %%DATADIR%%/Definitions/rus-media.yml
+%%DATADIR%%/Definitions/rustorka.yml
 %%DATADIR%%/Definitions/rutor.yml
 %%DATADIR%%/Definitions/scenefz.yml
 %%DATADIR%%/Definitions/scenepalace.yml
@@ -339,7 +341,6 @@
 %%DATADIR%%/Definitions/theempire.yml
 %%DATADIR%%/Definitions/thegeeks.yml
 %%DATADIR%%/Definitions/thehorrorcharnel.yml
-%%DATADIR%%/Definitions/themoviecave.yml
 %%DATADIR%%/Definitions/theoccult.yml
 %%DATADIR%%/Definitions/thepiratebay.yml
 %%DATADIR%%/Definitions/theplace.yml

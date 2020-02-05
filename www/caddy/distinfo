@@ -1,4 +1,4 @@
-TIMESTAMP = 1580911706
+TIMESTAMP = 1580916955
 SHA256 (mholt-caddy-v2.0.0-beta.13_GH0.tar.gz) = de1c25a42d2fa2345a9bef62942fb30bd8aec016caa4c9d8f3dbcf0a34d7f3a9
 SIZE (mholt-caddy-v2.0.0-beta.13_GH0.tar.gz) = 271725
 SHA256 (cenkalti-backoff-v3.0.0_GH0.tar.gz) = e68ff17e455840ec14812e6d991d3284a103f7e29f82b8075beb1ab11c6c1719
@@ -25,8 +25,8 @@ SHA256 (golang-protobuf-v1.3.2_GH0.tar.gz) = c9cda622857a17cf0877c5ba76688a93188
 SIZE (golang-protobuf-v1.3.2_GH0.tar.gz) = 312285
 SHA256 (golang-sys-33540a1f6037_GH0.tar.gz) = 09ebdf007413c2eaddce123137443d08d1848be410c58896e772f0481ec385d5
 SIZE (golang-sys-33540a1f6037_GH0.tar.gz) = 1497659
-SHA256 (golang-text-v0.3.2_GH0.tar.gz) = ff76093afed3df0af064a2bdd0a6f068f4499b72d92c6843af634d092c49c6cc
-SIZE (golang-text-v0.3.2_GH0.tar.gz) = 5783552
+SHA256 (golang-text-v0.3.2_GH0.tar.gz) = 0b9309698f5708531c5377ab1e29b423a6d9e20c55a8d386c3b8283428212f22
+SIZE (golang-text-v0.3.2_GH0.tar.gz) = 7168069
 SHA256 (google-uuid-v1.1.1_GH0.tar.gz) = bebd4b0b4ea152a9793615ef23c83f688876d8c284a2092264d20a4bf4ffc423
 SIZE (google-uuid-v1.1.1_GH0.tar.gz) = 13543
 SHA256 (gorilla-websocket-v1.4.0_GH0.tar.gz) = 2b5743c72bd0930c5a80e49c0138b5b7d27fa7c085efd0c86805cccfa7220c9d

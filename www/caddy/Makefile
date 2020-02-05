@@ -65,9 +65,6 @@ TELEMETRY_EXTRA_PATCHES_OFF=	${PATCHDIR}/extra-patch-disable-telemetry
 # It is a bit involved to get caddy --version to work correctly, so this
 # simple hack gets the right version number that the port has downloaded.  See
 # https://github.com/caddyserver/caddy/issues/2875 for more details.
-post-patch:
-	@${REINPLACE_CMD} -e 's|module.Version|"v${DISTVERSION}"|g' ${WRKSRC}/caddy/caddymain/run.go
-
 post-install:
 	${INSTALL_SCRIPT} ${GO_WRKSRC}/dist/init/freebsd/${PORTNAME} \
 		${STAGEDIR}/${PREFIX}/etc/rc.d/${PORTNAME}

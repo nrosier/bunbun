@@ -51,7 +51,7 @@ GH_TUPLE=	\
 		natefinch:lumberjack:v2.0.0:natefinch_lumberjack/vendor/gopkg.in/natefinch/lumberjack.v2 \
 		onsi:ginkgo:v1.7.0:onsi_ginkgo/vendor/github.com/onsi/ginkgo \
 		russross:blackfriday:067529f716f4:russross_blackfriday/vendor/github.com/russross/blackfriday \
-		nrosier:caddy-matomo:0.1:nrosier_caddy_matomo/vendor/github.com/nrosier/caddy-matomo \
+		nrosier:caddy-matomo:0.2:nrosier_caddy_matomo/vendor/github.com/nrosier/caddy-matomo \
 		square:go-jose:v2.3.1:square_go_jose/vendor/gopkg.in/square/go-jose.v2
 
 GO_TARGET=	./caddy

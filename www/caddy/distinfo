@@ -1,4 +1,4 @@
-TIMESTAMP = 1581191969
+TIMESTAMP = 1581194290
 SHA256 (mholt-caddy-v1.0.4_GH0.tar.gz) = bf81245d2b347c89a8e8aa358a224b722d55cb6e1c266bbdffbe6acc54d130a5
 SIZE (mholt-caddy-v1.0.4_GH0.tar.gz) = 394038
 SHA256 (cenkalti-backoff-v3.0.0_GH0.tar.gz) = e68ff17e455840ec14812e6d991d3284a103f7e29f82b8075beb1ab11c6c1719
@@ -63,7 +63,7 @@ SHA256 (onsi-ginkgo-v1.7.0_GH0.tar.gz) = b6c221fe050cbdbbb1b2e2937a73949dad5aabb
 SIZE (onsi-ginkgo-v1.7.0_GH0.tar.gz) = 132975
 SHA256 (russross-blackfriday-067529f716f4_GH0.tar.gz) = 6bb6720e3a15e5e691842c16c130c92233684b468d8e5d41ad46af53c86e4e4b
 SIZE (russross-blackfriday-067529f716f4_GH0.tar.gz) = 73867
-SHA256 (nrosier-caddy-matomo-0.1_GH0.tar.gz) = b38febaba791ab881d630de4a1bfde95ca71f30cf05e14fbb35bc23d2525c94d
-SIZE (nrosier-caddy-matomo-0.1_GH0.tar.gz) = 2011
+SHA256 (nrosier-caddy-matomo-0.2_GH0.tar.gz) = 92d034ccf874fbf45ebc54d95f697771d84efd5b283c5157ab05a93340530ac6
+SIZE (nrosier-caddy-matomo-0.2_GH0.tar.gz) = 2010
 SHA256 (square-go-jose-v2.3.1_GH0.tar.gz) = 325bc36d91cc97d724c5c7d107adb7d75c1de32a18e9ff75a3b8341a995c3b6a
 SIZE (square-go-jose-v2.3.1_GH0.tar.gz) = 299480

@@ -74,7 +74,6 @@
 %%DATADIR%%/Definitions/alein.yml
 %%DATADIR%%/Definitions/alexfilm.yml
 %%DATADIR%%/Definitions/amigosshare.yml
-%%DATADIR%%/Definitions/anidex.yml
 %%DATADIR%%/Definitions/anirena.yml
 %%DATADIR%%/Definitions/arabafenice.yml
 %%DATADIR%%/Definitions/arenabg.yml
@@ -198,6 +197,7 @@
 %%DATADIR%%/Definitions/hdcenter.yml
 %%DATADIR%%/Definitions/hdchina.yml
 %%DATADIR%%/Definitions/hdcity.yml
+%%DATADIR%%/Definitions/hddisk.yml
 %%DATADIR%%/Definitions/hddolby.yml
 %%DATADIR%%/Definitions/hdforever.yml
 %%DATADIR%%/Definitions/hdhome.yml
@@ -206,6 +206,7 @@
 %%DATADIR%%/Definitions/hdroute.yml
 %%DATADIR%%/Definitions/hdsky.yml
 %%DATADIR%%/Definitions/hdspain.yml
+%%DATADIR%%/Definitions/hdtime.yml
 %%DATADIR%%/Definitions/hdtorrentsit.yml
 %%DATADIR%%/Definitions/hdturk.yml
 %%DATADIR%%/Definitions/hdu.yml
@@ -229,6 +230,8 @@
 %%DATADIR%%/Definitions/kickasstorrent-kathow.yml
 %%DATADIR%%/Definitions/kickasstorrent.yml
 %%DATADIR%%/Definitions/kinozal.yml
+%%DATADIR%%/Definitions/korsar.yml
+%%DATADIR%%/Definitions/leaguehd.yml
 %%DATADIR%%/Definitions/learnflakes.yml
 %%DATADIR%%/Definitions/legacyhd.yml
 %%DATADIR%%/Definitions/legittorrents.yml
@@ -245,6 +248,7 @@
 %%DATADIR%%/Definitions/marinetracker.yml
 %%DATADIR%%/Definitions/metal-iplay-ro.yml
 %%DATADIR%%/Definitions/metaltracker.yml
+%%DATADIR%%/Definitions/microbit.yml
 %%DATADIR%%/Definitions/moecat.yml
 %%DATADIR%%/Definitions/mononokebt.yml
 %%DATADIR%%/Definitions/monova.yml
@@ -318,6 +322,7 @@
 %%DATADIR%%/Definitions/siambit.yml
 %%DATADIR%%/Definitions/sktorrent.yml
 %%DATADIR%%/Definitions/skytorrentsclone.yml
+%%DATADIR%%/Definitions/snowpt.yml
 %%DATADIR%%/Definitions/soundpark.yml
 %%DATADIR%%/Definitions/spacetorrent.yml
 %%DATADIR%%/Definitions/speedtorrentreloaded.yml
@@ -329,7 +334,6 @@
 %%DATADIR%%/Definitions/takeabyte.yml
 %%DATADIR%%/Definitions/tapochek.yml
 %%DATADIR%%/Definitions/tasmanit.yml
-%%DATADIR%%/Definitions/tazmaniaden.yml
 %%DATADIR%%/Definitions/teamhd.yml
 %%DATADIR%%/Definitions/teamos.yml
 %%DATADIR%%/Definitions/tekno3d.yml
@@ -344,6 +348,7 @@
 %%DATADIR%%/Definitions/theoccult.yml
 %%DATADIR%%/Definitions/thepiratebay.yml
 %%DATADIR%%/Definitions/theplace.yml
+%%DATADIR%%/Definitions/theresurrection.yml
 %%DATADIR%%/Definitions/theshinning.yml
 %%DATADIR%%/Definitions/theshow.yml
 %%DATADIR%%/Definitions/thevault.yml
@@ -360,12 +365,14 @@
 %%DATADIR%%/Definitions/torrentccf.yml
 %%DATADIR%%/Definitions/torrentdownload.yml
 %%DATADIR%%/Definitions/torrentdownloads.yml
+%%DATADIR%%/Definitions/torrentfactory.yml
 %%DATADIR%%/Definitions/torrentfunk.yml
 %%DATADIR%%/Definitions/torrentgalaxyorg.yml
 %%DATADIR%%/Definitions/torrenthr.yml
 %%DATADIR%%/Definitions/torrenting.yml
 %%DATADIR%%/Definitions/torrentkitty.yml
 %%DATADIR%%/Definitions/torrentland.yml
+%%DATADIR%%/Definitions/torrentleech-pl.yml
 %%DATADIR%%/Definitions/torrentlt.yml
 %%DATADIR%%/Definitions/torrentparadise.yml
 %%DATADIR%%/Definitions/torrentproject2.yml
@@ -391,6 +398,7 @@
 %%DATADIR%%/Definitions/unlimitz.yml
 %%DATADIR%%/Definitions/vanila.yml
 %%DATADIR%%/Definitions/vizuk.yml
+%%DATADIR%%/Definitions/wdt.yml
 %%DATADIR%%/Definitions/wihd.yml
 %%DATADIR%%/Definitions/world-of-tomorrow.yml
 %%DATADIR%%/Definitions/x-ite.me.yml

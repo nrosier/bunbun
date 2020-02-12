@@ -2,7 +2,7 @@
 # $FreeBSD: head/multimedia/motion/Makefile 508216 2019-08-05 23:06:50Z jbeich $
 
 PORTNAME=	motion
-PORTVERSION=	4.2.2
+PORTVERSION=	4.3.0
 DISTVERSIONPREFIX=	release-
 #PORTREVISION=	10
 CATEGORIES=	multimedia

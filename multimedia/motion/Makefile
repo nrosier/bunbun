@@ -33,13 +33,15 @@ PLIST_FILES=	bin/motion \
 		man/man1/motion.1.gz \
 		"@sample ${ETCDIR}/motion.conf.sample" \
 		"@dir ${ETCDIR}/conf.d"
-PORTDOCS=	CHANGELOG CREDITS README.md \
-		motion_guide.html mask1.png normal.jpg \
-		outputmotion1.jpg outputnormal1.jpg
-PORTEXAMPLES=	camera1-dist.conf camera2-dist.conf \
-		camera3-dist.conf camera4-dist.conf
+PORTDOCS=	doc/CHANGELOG doc/CREDITS README.md \
+		doc/motion_guide.html doc/mask1.png doc/normal.jpg \
+		doc/outputmotion1.jpg doc/outputnormal1.jpg
+PORTEXAMPLES=	data/camera1-dist.conf data/camera2-dist.conf \
+		data/camera3-dist.conf data/camera4-dist.conf
 
 LIB_DEPENDS=	libmicrohttpd.so:www/libmicrohttpd
+
+BUILD_DEPENDS=	gettext:devel/gettext
 
 OPTIONS_DEFINE=		DOCS EXAMPLES FFMPEG MYSQL PGSQL SQLITE3
 OPTIONS_RADIO=		VIDEO
@@ -91,8 +93,8 @@ post-patch:
 		's|/run/motion|/run|' ${WRKSRC}/data/motion-dist.conf.in
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/motion ${STAGEDIR}${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/motion.1 ${STAGEDIR}${MANPREFIX}/man/man1
+	${INSTALL_PROGRAM} ${WRKSRC}/src/motion ${STAGEDIR}${PREFIX}/bin
+	${INSTALL_MAN} ${WRKSRC}/man/motion.1 ${STAGEDIR}${MANPREFIX}/man/man1
 	@${MKDIR} ${STAGEDIR}${ETCDIR}/conf.d
 	${INSTALL_DATA} ${WRKSRC}/data/motion-dist.conf \
 		${STAGEDIR}${ETCDIR}/motion.conf.sample

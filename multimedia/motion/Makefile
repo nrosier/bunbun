@@ -88,13 +88,13 @@ post-patch:
 		's|/usr/local|${LOCALBASE}|g' ${WRKSRC}/configure.ac
 # Fix pidfile path
 	@${REINPLACE_CMD} -e \
-		's|/run/motion|/run|' ${WRKSRC}/motion-dist.conf.in
+		's|/run/motion|/run|' ${WRKSRC}/data/motion-dist.conf.in
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/motion ${STAGEDIR}${PREFIX}/bin
 	${INSTALL_MAN} ${WRKSRC}/motion.1 ${STAGEDIR}${MANPREFIX}/man/man1
 	@${MKDIR} ${STAGEDIR}${ETCDIR}/conf.d
-	${INSTALL_DATA} ${WRKSRC}/motion-dist.conf \
+	${INSTALL_DATA} ${WRKSRC}/data/motion-dist.conf \
 		${STAGEDIR}${ETCDIR}/motion.conf.sample
 
 do-install-DOCS-on:

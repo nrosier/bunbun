@@ -11,7 +11,7 @@ MAINTAINER=	ports@FreeBSD.org
 COMMENT=	Motion detection application
 
 LICENSE=	GPLv2+
-LICENSE_FILE=	${WRKSRC}/COPYING
+LICENSE_FILE=	${WRKSRC}/doc/COPYING
 
 USES=		autoreconf gmake jpeg localbase pkgconfig
 USE_GITHUB=	yes

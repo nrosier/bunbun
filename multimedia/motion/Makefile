@@ -33,11 +33,13 @@ PLIST_FILES=	bin/motion \
 		man/man1/motion.1.gz \
 		"@sample ${ETCDIR}/motion.conf.sample" \
 		"@dir ${ETCDIR}/conf.d"
-PORTDOCS=	doc/CHANGELOG doc/CREDITS README.md \
+DOCS=		doc/CHANGELOG doc/CREDITS README.md \
 		doc/motion_guide.html doc/mask1.png doc/normal.jpg \
 		doc/outputmotion1.jpg doc/outputnormal1.jpg
-PORTEXAMPLES=	data/camera1-dist.conf data/camera2-dist.conf \
+PORTDOCS=	${DOCS:T}
+EXAMPLES=	data/camera1-dist.conf data/camera2-dist.conf \
 		data/camera3-dist.conf data/camera4-dist.conf
+PORTEXAMPLES=	${EXAMPLES:T}
 
 LIB_DEPENDS=	libmicrohttpd.so:www/libmicrohttpd
 
@@ -101,10 +103,10 @@ do-install:
 
 do-install-DOCS-on:
 	@${MKDIR} ${STAGEDIR}${DOCSDIR}
-	${INSTALL_DATA} ${PORTDOCS:S|^|${WRKSRC}/|} ${STAGEDIR}${DOCSDIR}
+	${INSTALL_DATA} ${DOCS:S|^|${WRKSRC}/|} ${STAGEDIR}${DOCSDIR}
 
 do-install-EXAMPLES-on:
 	@${MKDIR} ${STAGEDIR}${EXAMPLESDIR}
-	${INSTALL_DATA} ${PORTEXAMPLES:S|^|${WRKSRC}/|} ${STAGEDIR}${EXAMPLESDIR}
+	${INSTALL_DATA} ${EXAMPLES:S|^|${WRKSRC}/|} ${STAGEDIR}${EXAMPLESDIR}
 
 .include <bsd.port.post.mk>

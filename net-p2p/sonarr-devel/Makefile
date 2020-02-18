@@ -1,18 +1,19 @@
-# $FreeBSD: head/net-p2p/sonarr/Makefile 500111 2019-04-26 14:44:29Z feld $
+# $FreeBSD: head/net-p2p/sonarr-devel/Makefile 523695 2020-01-20 23:06:50Z feld $
 
 PORTNAME=	sonarr
-PORTVERSION=	2.0.0.5338
+PORTVERSION=	3.0.3.698
 PORTREVISION=	0
 CATEGORIES=	net-p2p
-MASTER_SITES=	http://download.sonarr.tv/v2/master/mono/
-DISTNAME=	NzbDrone.master.${PORTVERSION}.mono
+MASTER_SITES=	http://download.sonarr.tv/v3/phantom-develop/${PORTVERSION}/
+PKGNAMESUFFIX=	-devel
+DISTNAME=	Sonarr.phantom-develop.${PORTVERSION}.linux
 
 MAINTAINER=	feld@FreeBSD.org
 COMMENT=	PVR for Usenet and BitTorrent users
 
 LICENSE=	GPLv3
 
-RUN_DEPENDS=	mono>0:lang/mono \
+RUN_DEPENDS=	mono>4.6.1:lang/mono \
 		mediainfo>0:multimedia/mediainfo \
 		sqlite3>0:databases/sqlite3
 LIB_DEPENDS=	libcurl.so:ftp/curl
@@ -21,7 +22,7 @@ USE_RC_SUBR=	sonarr
 
 NO_ARCH=	YES
 NO_BUILD=	YES
-WRKSRC=	${WRKDIR}/NzbDrone
+WRKSRC=	${WRKDIR}/Sonarr
 
 USERS=	sonarr
 GROUPS=	sonarr
@@ -30,6 +31,8 @@ OPTIONS_DEFINE=	X11
 
 # Permits image resizing
 X11_LIB_DEPENDS+=libgdiplus.so:x11-toolkits/libgdiplus
+
+CONFLICTS=	sonarr-2*
 
 .include <bsd.port.options.mk>
 

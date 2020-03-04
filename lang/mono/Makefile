@@ -40,6 +40,7 @@ X11_USES=	display:test
 USES=	autoreconf bison compiler:c11 cpe gmake iconv libtool \
 	pathfix perl5 python shebangfix tar:xz
 USE_PERL5=	build
+USE_GCC=	any
 GNU_CONFIGURE=	yes
 USE_LDCONFIG=	yes
 SHEBANG_FILES=	scripts/mono-heapviz mono/mini/genmdesc.py mono/tests/test_lldb.py

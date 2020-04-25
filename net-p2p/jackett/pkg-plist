@@ -60,6 +60,7 @@
 %%DATADIR%%/Definitions/0daykiev.yml
 %%DATADIR%%/Definitions/1337x.yml
 %%DATADIR%%/Definitions/2fast4you.yml
+%%DATADIR%%/Definitions/3changtrai.yml
 %%DATADIR%%/Definitions/3dtorrents.yml
 %%DATADIR%%/Definitions/3evils.yml
 %%DATADIR%%/Definitions/4thd.yml
@@ -76,6 +77,7 @@
 %%DATADIR%%/Definitions/amigosshare.yml
 %%DATADIR%%/Definitions/anirena.yml
 %%DATADIR%%/Definitions/arabafenice.yml
+%%DATADIR%%/Definitions/arabp2p.yml
 %%DATADIR%%/Definitions/arenabg.yml
 %%DATADIR%%/Definitions/asgaard.yml
 %%DATADIR%%/Definitions/asiancinema.yml
@@ -98,7 +100,6 @@
 %%DATADIR%%/Definitions/bithumen.yml
 %%DATADIR%%/Definitions/bitru.yml
 %%DATADIR%%/Definitions/bitspyder.yml
-%%DATADIR%%/Definitions/bittorrentam.yml
 %%DATADIR%%/Definitions/bitturk.yml
 %%DATADIR%%/Definitions/bluebird.yml
 %%DATADIR%%/Definitions/blutopia.yml
@@ -138,6 +139,7 @@
 %%DATADIR%%/Definitions/crnaberza.yml
 %%DATADIR%%/Definitions/cztorrent.yml
 %%DATADIR%%/Definitions/dark-shadow.yml
+%%DATADIR%%/Definitions/darktracker.yml
 %%DATADIR%%/Definitions/datascene.yml
 %%DATADIR%%/Definitions/deildu.yml
 %%DATADIR%%/Definitions/demonoid.yml
@@ -145,6 +147,7 @@
 %%DATADIR%%/Definitions/desireleasers.yml
 %%DATADIR%%/Definitions/desitorrents.yml
 %%DATADIR%%/Definitions/diablotorrent.yml
+%%DATADIR%%/Definitions/dimeadozen.yml
 %%DATADIR%%/Definitions/divteam.yml
 %%DATADIR%%/Definitions/dmhy.yml
 %%DATADIR%%/Definitions/documentarytorrents.yml
@@ -158,6 +161,7 @@
 %%DATADIR%%/Definitions/elitetorrent-biz.yml
 %%DATADIR%%/Definitions/empornium.yml
 %%DATADIR%%/Definitions/eniahd.yml
+%%DATADIR%%/Definitions/epizod.yml
 %%DATADIR%%/Definitions/erzsebet.yml
 %%DATADIR%%/Definitions/esharenet.yml
 %%DATADIR%%/Definitions/estone.yml
@@ -165,6 +169,7 @@
 %%DATADIR%%/Definitions/ethor.yml
 %%DATADIR%%/Definitions/ettv.yml
 %%DATADIR%%/Definitions/exkinoray.yml
+%%DATADIR%%/Definitions/extratorrent-ag.yml
 %%DATADIR%%/Definitions/extratorrent-cd.yml
 %%DATADIR%%/Definitions/extremetorrents.yml
 %%DATADIR%%/Definitions/extremlymtorrents.yml
@@ -180,6 +185,7 @@
 %%DATADIR%%/Definitions/finvip.yml
 %%DATADIR%%/Definitions/firebit.yml
 %%DATADIR%%/Definitions/focusx.yml
+%%DATADIR%%/Definitions/fouducinema.yml
 %%DATADIR%%/Definitions/freetorrent.yml
 %%DATADIR%%/Definitions/frozenlayer.yml
 %%DATADIR%%/Definitions/fullmixmusic.yml
@@ -197,6 +203,7 @@
 %%DATADIR%%/Definitions/glodls.yml
 %%DATADIR%%/Definitions/greekteam.yml
 %%DATADIR%%/Definitions/hachede.yml
+%%DATADIR%%/Definitions/haidan.yml
 %%DATADIR%%/Definitions/hamsterstudio.yml
 %%DATADIR%%/Definitions/hd4fans.yml
 %%DATADIR%%/Definitions/hdarea.yml
@@ -237,9 +244,11 @@
 %%DATADIR%%/Definitions/jpopsuki.yml
 %%DATADIR%%/Definitions/kapaki.yml
 %%DATADIR%%/Definitions/karagarga.yml
+%%DATADIR%%/Definitions/kaztorka.yml
 %%DATADIR%%/Definitions/kickasstorrent-kathow.yml
 %%DATADIR%%/Definitions/kickasstorrent.yml
 %%DATADIR%%/Definitions/kinonavse100.yml
+%%DATADIR%%/Definitions/kinorun.yml
 %%DATADIR%%/Definitions/kinozal.yml
 %%DATADIR%%/Definitions/korsar.yml
 %%DATADIR%%/Definitions/lastfiles.yml
@@ -320,6 +329,7 @@
 %%DATADIR%%/Definitions/ptsbao.yml
 %%DATADIR%%/Definitions/puntotorrent.yml
 %%DATADIR%%/Definitions/purovicio.yml
+%%DATADIR%%/Definitions/pussytorrents.yml
 %%DATADIR%%/Definitions/pwtorrents.yml
 %%DATADIR%%/Definitions/r3vwtf.yml
 %%DATADIR%%/Definitions/racing4everyone.yml
@@ -329,7 +339,6 @@
 %%DATADIR%%/Definitions/retroflix.yml
 %%DATADIR%%/Definitions/rintor.yml
 %%DATADIR%%/Definitions/riperam.yml
-%%DATADIR%%/Definitions/rns.yml
 %%DATADIR%%/Definitions/rockbox.yml
 %%DATADIR%%/Definitions/rodvd.yml
 %%DATADIR%%/Definitions/rptorrents.yml
@@ -349,6 +358,7 @@
 %%DATADIR%%/Definitions/shellife.yml
 %%DATADIR%%/Definitions/shokweb.yml
 %%DATADIR%%/Definitions/siambit.yml
+%%DATADIR%%/Definitions/sktorrent-org.yml
 %%DATADIR%%/Definitions/sktorrent.yml
 %%DATADIR%%/Definitions/skytorrentsclone.yml
 %%DATADIR%%/Definitions/snowpt.yml
@@ -384,6 +394,7 @@
 %%DATADIR%%/Definitions/theshow.yml
 %%DATADIR%%/Definitions/thevault.yml
 %%DATADIR%%/Definitions/tlfbits.yml
+%%DATADIR%%/Definitions/tntvillage.yml
 %%DATADIR%%/Definitions/tokyotosho.yml
 %%DATADIR%%/Definitions/topnow.yml
 %%DATADIR%%/Definitions/torlock.yml
@@ -395,7 +406,9 @@
 %%DATADIR%%/Definitions/torrent9.yml
 %%DATADIR%%/Definitions/torrent9clone.yml
 %%DATADIR%%/Definitions/torrentbd.yml
+%%DATADIR%%/Definitions/torrentbomb.yml
 %%DATADIR%%/Definitions/torrentccf.yml
+%%DATADIR%%/Definitions/torrentdb.yml
 %%DATADIR%%/Definitions/torrentdownload.yml
 %%DATADIR%%/Definitions/torrentdownloads.yml
 %%DATADIR%%/Definitions/torrentfactory.yml
@@ -412,12 +425,12 @@
 %%DATADIR%%/Definitions/torrentparadise.yml
 %%DATADIR%%/Definitions/torrentproject2.yml
 %%DATADIR%%/Definitions/torrentquest.yml
-%%DATADIR%%/Definitions/torrentrex.yml
 %%DATADIR%%/Definitions/torrentsectorcrew.yml
 %%DATADIR%%/Definitions/torrentslocal.yml
 %%DATADIR%%/Definitions/torrentv.yml
 %%DATADIR%%/Definitions/torrentview.yml
 %%DATADIR%%/Definitions/torrentz2.yml
+%%DATADIR%%/Definitions/torrentz2k.yml
 %%DATADIR%%/Definitions/totallykids.yml
 %%DATADIR%%/Definitions/totheglory.yml
 %%DATADIR%%/Definitions/trancetraffic.yml

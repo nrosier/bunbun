@@ -1,7 +1,7 @@
 # $FreeBSD: head/www/grafana6/Makefile 533745 2020-05-03 05:55:24Z delphij $
 
 PORTNAME=	grafana
-PORTVERSION=	7.0.0
+PORTVERSION=	7.0.3
 DISTVERSIONPREFIX=	v
 CATEGORIES=	www
 MASTER_SITES+=	https://dl.grafana.com/oss/release/:public

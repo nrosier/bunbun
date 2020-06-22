@@ -2,7 +2,7 @@
 # $FreeBSD: head/security/cyberchef/Makefile 530696 2020-04-04 17:47:56Z dvl $
 
 PORTNAME=	cyberchef
-PORTVERSION=	9.20.7
+PORTVERSION=	9.21.0
 DISTVERSIONPREFIX=	v
 CATEGORIES=	security
 MASTER_SITES=	https://github.com/${GH_ACCOUNT}/${GH_PROJECT}/releases/download/${GH_TAGNAME}/

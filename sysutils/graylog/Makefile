@@ -2,7 +2,7 @@
 # $FreeBSD: head/sysutils/graylog/Makefile 538464 2020-06-11 10:02:09Z dch $
 
 PORTNAME=	graylog
-DISTVERSION=	3.3.5
+DISTVERSION=	3.3.6
 CATEGORIES=	sysutils java
 MASTER_SITES=	https://downloads.graylog.org/releases/
 DISTFILES=	graylog/${DISTNAME}${EXTRACT_SUFX} \

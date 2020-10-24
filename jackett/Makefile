@@ -1,0 +1,35 @@
+# $FreeBSD: head/net-p2p/jackett/Makefile 546387 2020-08-27 18:12:37Z fernape $
+
+PORTNAME=	jackett
+PORTVERSION=	0.16.1873
+CATEGORIES=	net-p2p
+MASTER_SITES=	https://github.com/Jackett/Jackett/releases/download/
+DISTNAME=	v${PORTVERSION}/Jackett.Binaries.Mono
+
+MAINTAINER=	michiel@vanbaak.eu
+COMMENT=	Torznab proxy implementation of the Newznab API
+
+LICENSE=	GPLv2
+LICENSE_FILE=	${WRKSRC}/LICENSE
+
+LIB_DEPENDS=	libcurl.so:ftp/curl
+RUN_DEPENDS=	mono>0:lang/mono
+
+USE_RC_SUBR=	jackett
+
+NO_BUILD=	YES
+WRKSRC=		${WRKDIR}/Jackett
+
+USERS=	jackett
+GROUPS=	jackett
+
+.include <bsd.port.options.mk>
+
+post-patch:
+	@${RM} ${WRKSRC}/install_service_macos ${WRKSRC}/install_service_systemd.sh
+
+do-install:
+	${INSTALL} -d -m 755 ${STAGEDIR}/${DATADIR}
+	cd ${WRKSRC} && ${COPYTREE_SHARE} \* ${STAGEDIR}/${DATADIR}
+
+.include <bsd.port.mk>

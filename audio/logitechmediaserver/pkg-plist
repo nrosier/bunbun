@@ -7,6 +7,7 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%PORTDOCS%%%%DOCSDIR%%/Changelog5.html
 %%PORTDOCS%%%%DOCSDIR%%/Changelog6.html
 %%PORTDOCS%%%%DOCSDIR%%/Changelog7.html
+%%PORTDOCS%%%%DOCSDIR%%/Changelog8.html
 %%PORTDOCS%%%%DOCSDIR%%/License.de.txt
 %%PORTDOCS%%%%DOCSDIR%%/License.es.txt
 %%PORTDOCS%%%%DOCSDIR%%/License.fr.txt
@@ -38,6 +39,8 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/CPAN/Archive/Zip/StringMember.pm
 %%SLIMDIR%%/CPAN/Archive/Zip/Tree.pm
 %%SLIMDIR%%/CPAN/Archive/Zip/ZipFileMember.pm
+%%SLIMDIR%%/CPAN/Async/Util.pm
+%%SLIMDIR%%/CPAN/Bundle/LWP.pm
 %%SLIMDIR%%/CPAN/CGI/Util.pm
 %%SLIMDIR%%/CPAN/Cache/BaseCache.pm
 %%SLIMDIR%%/CPAN/Cache/Cache.pm
@@ -184,6 +187,7 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/CPAN/Digest/base.pm
 %%SLIMDIR%%/CPAN/EV.pm
 %%SLIMDIR%%/CPAN/Encode/Detect/Detector.pm
+%%SLIMDIR%%/CPAN/Encode/Locale.pm
 %%SLIMDIR%%/CPAN/Error.pm
 %%SLIMDIR%%/CPAN/Exporter/Lite.pm
 %%SLIMDIR%%/CPAN/File/BOM.pm
@@ -216,6 +220,7 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/CPAN/HTML/PullParser.pm
 %%SLIMDIR%%/CPAN/HTML/TokeParser.pm
 %%SLIMDIR%%/CPAN/HTML/TreeBuilder.pm
+%%SLIMDIR%%/CPAN/HTTP/Config.pm
 %%SLIMDIR%%/CPAN/HTTP/Cookies.pm
 %%SLIMDIR%%/CPAN/HTTP/Cookies/Microsoft.pm
 %%SLIMDIR%%/CPAN/HTTP/Cookies/Netscape.pm
@@ -250,6 +255,7 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/CPAN/LWP/Authen/Ntlm.pm
 %%SLIMDIR%%/CPAN/LWP/ConnCache.pm
 %%SLIMDIR%%/CPAN/LWP/Debug.pm
+%%SLIMDIR%%/CPAN/LWP/Debug/TraceHTTP.pm
 %%SLIMDIR%%/CPAN/LWP/DebugFile.pm
 %%SLIMDIR%%/CPAN/LWP/MediaTypes.pm
 %%SLIMDIR%%/CPAN/LWP/MemberMixin.pm
@@ -625,6 +631,7 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/CPAN/Time/Zone.pm
 %%SLIMDIR%%/CPAN/Time/localtime.pm
 %%SLIMDIR%%/CPAN/Time/tm.pm
+%%SLIMDIR%%/CPAN/Try/Tiny.pm
 %%SLIMDIR%%/CPAN/URI.pm
 %%SLIMDIR%%/CPAN/URI/Escape.pm
 %%SLIMDIR%%/CPAN/URI/Find.pm
@@ -656,6 +663,8 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/CPAN/URI/rtspu.pm
 %%SLIMDIR%%/CPAN/URI/urn.pm
 %%SLIMDIR%%/CPAN/UUID/Tiny.pm
+%%SLIMDIR%%/CPAN/WWW/RobotRules.pm
+%%SLIMDIR%%/CPAN/WWW/RobotRules/AnyDBM_File.pm
 %%SLIMDIR%%/CPAN/XML/NamespaceSupport.pm
 %%SLIMDIR%%/CPAN/XML/Parser.pm
 %%SLIMDIR%%/CPAN/XML/Parser/Encodings/Japanese_Encodings.msg
@@ -1162,6 +1171,7 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/Graphics/threeline.1.font.bmp
 %%SLIMDIR%%/Graphics/threeline.2.font.bmp
 %%SLIMDIR%%/Graphics/threeline.3.font.bmp
+%%SLIMDIR%%/Graphics/vumeter.bmp
 %%SLIMDIR%%/HTML/Classic/cmdwrappers_Classic
 %%SLIMDIR%%/HTML/Classic/helpfooter.html
 %%SLIMDIR%%/HTML/Classic/helpheader.html
@@ -1364,6 +1374,8 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/HTML/EN/html/docs/linux-update.html.de
 %%SLIMDIR%%/HTML/EN/html/docs/plugins.html
 %%SLIMDIR%%/HTML/EN/html/docs/protocol.html
+%%SLIMDIR%%/HTML/EN/html/docs/radio-compatibility.html
+%%SLIMDIR%%/HTML/EN/html/docs/radio-compatibility.html.de
 %%SLIMDIR%%/HTML/EN/html/docs/remote.html
 %%SLIMDIR%%/HTML/EN/html/docs/remotestreaming.html
 %%SLIMDIR%%/HTML/EN/html/docs/remotestreaming.html.de
@@ -1809,6 +1821,8 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/SQL/SQLite/schema_1_up.sql
 %%SLIMDIR%%/SQL/SQLite/schema_20_down.sql
 %%SLIMDIR%%/SQL/SQLite/schema_20_up.sql
+%%SLIMDIR%%/SQL/SQLite/schema_21_down.sql
+%%SLIMDIR%%/SQL/SQLite/schema_21_up.sql
 %%SLIMDIR%%/SQL/SQLite/schema_2_down.sql
 %%SLIMDIR%%/SQL/SQLite/schema_2_up.sql
 %%SLIMDIR%%/SQL/SQLite/schema_3_down.sql
@@ -1851,6 +1865,8 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/SQL/mysql/schema_1_up.sql
 %%SLIMDIR%%/SQL/mysql/schema_20_down.sql
 %%SLIMDIR%%/SQL/mysql/schema_20_up.sql
+%%SLIMDIR%%/SQL/mysql/schema_21_down.sql
+%%SLIMDIR%%/SQL/mysql/schema_21_up.sql
 %%SLIMDIR%%/SQL/mysql/schema_2_down.sql
 %%SLIMDIR%%/SQL/mysql/schema_2_up.sql
 %%SLIMDIR%%/SQL/mysql/schema_3_down.sql
@@ -1984,13 +2000,17 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/Slim/Networking/Repositories.pm
 %%SLIMDIR%%/Slim/Networking/Select.pm
 %%SLIMDIR%%/Slim/Networking/SimpleAsyncHTTP.pm
+%%SLIMDIR%%/Slim/Networking/SimpleHTTP/Base.pm
+%%SLIMDIR%%/Slim/Networking/SimpleSyncHTTP.pm
 %%SLIMDIR%%/Slim/Networking/SliMP3/Protocol.pm
 %%SLIMDIR%%/Slim/Networking/SliMP3/Stream.pm
 %%SLIMDIR%%/Slim/Networking/Slimproto.pm
 %%SLIMDIR%%/Slim/Networking/SqueezeNetwork.pm
+%%SLIMDIR%%/Slim/Networking/SqueezeNetwork/Base.pm
 %%SLIMDIR%%/Slim/Networking/SqueezeNetwork/Players.pm
 %%SLIMDIR%%/Slim/Networking/SqueezeNetwork/PrefSync.pm
 %%SLIMDIR%%/Slim/Networking/SqueezeNetwork/Stats.pm
+%%SLIMDIR%%/Slim/Networking/SqueezeNetwork/Sync.pm
 %%SLIMDIR%%/Slim/Networking/UDP.pm
 %%SLIMDIR%%/Slim/Player/Boom.pm
 %%SLIMDIR%%/Slim/Player/CapabilitiesHelper.pm
@@ -2062,8 +2082,11 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/Slim/Plugin/DateTime/Settings.pm
 %%SLIMDIR%%/Slim/Plugin/DateTime/install.xml
 %%SLIMDIR%%/Slim/Plugin/DateTime/strings.txt
+%%SLIMDIR%%/Slim/Plugin/Deezer/API.pm
 %%SLIMDIR%%/Slim/Plugin/Deezer/HTML/EN/plugins/Deezer/html/images/icon.png
 %%SLIMDIR%%/Slim/Plugin/Deezer/HTML/EN/plugins/Deezer/html/images/icon_40x40_m.png
+%%SLIMDIR%%/Slim/Plugin/Deezer/HTML/EN/plugins/Deezer/html/images/logo.png
+%%SLIMDIR%%/Slim/Plugin/Deezer/Importer.pm
 %%SLIMDIR%%/Slim/Plugin/Deezer/Plugin.pm
 %%SLIMDIR%%/Slim/Plugin/Deezer/ProtocolHandler.pm
 %%SLIMDIR%%/Slim/Plugin/Deezer/install.xml
@@ -2230,6 +2253,17 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/Slim/Plugin/OPMLGeneric/Plugin.pm
 %%SLIMDIR%%/Slim/Plugin/OPMLGeneric/install.xml
 %%SLIMDIR%%/Slim/Plugin/OPMLGeneric/strings.txt
+%%SLIMDIR%%/Slim/Plugin/OnlineLibrary/BrowseArtist.pm
+%%SLIMDIR%%/Slim/Plugin/OnlineLibrary/EditGenreMappings.pm
+%%SLIMDIR%%/Slim/Plugin/OnlineLibrary/HTML/EN/plugins/OnlineLibrary/editMappings.html
+%%SLIMDIR%%/Slim/Plugin/OnlineLibrary/HTML/EN/plugins/OnlineLibrary/settings.html
+%%SLIMDIR%%/Slim/Plugin/OnlineLibrary/Importer.pm
+%%SLIMDIR%%/Slim/Plugin/OnlineLibrary/Libraries.pm
+%%SLIMDIR%%/Slim/Plugin/OnlineLibrary/Plugin.pm
+%%SLIMDIR%%/Slim/Plugin/OnlineLibrary/Settings.pm
+%%SLIMDIR%%/Slim/Plugin/OnlineLibrary/install.xml
+%%SLIMDIR%%/Slim/Plugin/OnlineLibrary/strings.txt
+%%SLIMDIR%%/Slim/Plugin/OnlineLibraryBase.pm
 %%SLIMDIR%%/Slim/Plugin/Orange/HTML/EN/plugins/Orange/html/images/icon.png
 %%SLIMDIR%%/Slim/Plugin/Orange/Metadata.pm
 %%SLIMDIR%%/Slim/Plugin/Orange/Plugin.pm
@@ -2337,6 +2371,7 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/Slim/Plugin/Sounds/install.xml
 %%SLIMDIR%%/Slim/Plugin/Sounds/strings.txt
 %%SLIMDIR%%/Slim/Plugin/TT/Clients.pm
+%%SLIMDIR%%/Slim/Plugin/TT/OnlineServices.pm
 %%SLIMDIR%%/Slim/Plugin/TT/Prefs.pm
 %%SLIMDIR%%/Slim/Plugin/TT/README
 %%SLIMDIR%%/Slim/Plugin/UPnP/Common/Utils.pm
@@ -2374,7 +2409,10 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/Slim/Plugin/Visualizer/Plugin.pm
 %%SLIMDIR%%/Slim/Plugin/Visualizer/install.xml
 %%SLIMDIR%%/Slim/Plugin/Visualizer/strings.txt
+%%SLIMDIR%%/Slim/Plugin/WiMP/API.pm
 %%SLIMDIR%%/Slim/Plugin/WiMP/HTML/EN/plugins/WiMP/html/images/icon.png
+%%SLIMDIR%%/Slim/Plugin/WiMP/HTML/EN/plugins/WiMP/html/images/tidal.png
+%%SLIMDIR%%/Slim/Plugin/WiMP/Importer.pm
 %%SLIMDIR%%/Slim/Plugin/WiMP/Plugin.pm
 %%SLIMDIR%%/Slim/Plugin/WiMP/ProtocolHandler.pm
 %%SLIMDIR%%/Slim/Plugin/WiMP/install.xml
@@ -2489,6 +2527,7 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%SLIMDIR%%/Slim/Utils/Prefs/Migration/ClientV7.pm
 %%SLIMDIR%%/Slim/Utils/Prefs/Migration/ClientV8.pm
 %%SLIMDIR%%/Slim/Utils/Prefs/Migration/ClientV9.pm
+%%SLIMDIR%%/Slim/Utils/Prefs/Migration/README.md
 %%SLIMDIR%%/Slim/Utils/Prefs/Migration/V1.pm
 %%SLIMDIR%%/Slim/Utils/Prefs/Migration/V2.pm
 %%SLIMDIR%%/Slim/Utils/Prefs/Migration/V3.pm

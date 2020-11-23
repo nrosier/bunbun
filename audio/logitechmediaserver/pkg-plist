@@ -7,7 +7,6 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%PORTDOCS%%%%DOCSDIR%%/Changelog5.html
 %%PORTDOCS%%%%DOCSDIR%%/Changelog6.html
 %%PORTDOCS%%%%DOCSDIR%%/Changelog7.html
-%%PORTDOCS%%%%DOCSDIR%%/Installation.txt
 %%PORTDOCS%%%%DOCSDIR%%/License.de.txt
 %%PORTDOCS%%%%DOCSDIR%%/License.es.txt
 %%PORTDOCS%%%%DOCSDIR%%/License.fr.txt
@@ -15,7 +14,6 @@ etc/newsyslog.conf.d/logitechmediaserver.conf
 %%PORTDOCS%%%%DOCSDIR%%/License.it.txt
 %%PORTDOCS%%%%DOCSDIR%%/License.nl.txt
 %%PORTDOCS%%%%DOCSDIR%%/License.txt
-%%SLIMDIR%%/Bin/dbish
 %%SLIMDIR%%/CPAN/AE.pm
 %%SLIMDIR%%/CPAN/Algorithm/C3.pm
 %%SLIMDIR%%/CPAN/AnyEvent.pm

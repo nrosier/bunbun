@@ -1,7 +1,7 @@
 # $FreeBSD: head/audio/logitechmediaserver/Makefile 488090 2018-12-22 11:36:08Z pi $
 
 PORTNAME=	logitechmediaserver
-PORTVERSION=	7.9.3.g2020.11.23
+PORTVERSION=	8.0.0.g2020.11.23
 CATEGORIES=	audio
 
 MAINTAINER=	mark@tranquillussoftware.co.uk
@@ -25,7 +25,6 @@ GH_TUPLE=	Logitech:slimserver:02ea6f3 \
 		Logitech:slimserver-vendor:c2162d0:vendor
 USE_RC_SUBR=	logitechmediaserver
 SHEBANG_FILES=	Bin/darwin/check-update.pl \
-		Bin/dbish \
 		CPAN/Log/Log4perl/Layout/PatternLayout/Multiline.pm \
 		Slim/Plugin/UPnP/t/MediaRenderer.t \
 		Slim/Plugin/UPnP/t/MediaServer.t \
@@ -53,7 +52,7 @@ RESTRICTED=	Contains non-redistributable firmware, documentation, and images
 USERS=		${SLIMUSER}
 GROUPS=		${SLIMGROUP}
 
-DOCFILES=	Changelog*.html Installation.txt License*.txt
+DOCFILES=	Changelog*.html License*.txt
 CONFFILES=	convert.conf types.conf
 
 PLIST_SUB=	SLIMDIR=${SLIMDIR} \
@@ -124,7 +123,6 @@ do-install:
 	@${MKDIR} ${STAGEDIR}${PREFIX}/etc/newsyslog.conf.d
 	${INSTALL_DATA} ${WRKDIR}/logitechmediaserver.conf \
 	    ${STAGEDIR}${PREFIX}/etc/newsyslog.conf.d/
-	${INSTALL_SCRIPT} ${WRKSRC}/Bin/dbish ${STAGEDIR}${PREFIX}/${SLIMDIR}/Bin/
 	@${LN} -s ${SLIMDBDIR}/cache ${STAGEDIR}${PREFIX}/${SLIMDIR}/Cache
 do-install-DOCS-on:
 	@${MKDIR} ${STAGEDIR}${DOCSDIR}

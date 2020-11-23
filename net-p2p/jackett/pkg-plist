@@ -61,7 +61,6 @@
 %%DATADIR%%/Definitions/1337x.yml
 %%DATADIR%%/Definitions/1ptbar.yml
 %%DATADIR%%/Definitions/2fast4you.yml
-%%DATADIR%%/Definitions/32pages.yml
 %%DATADIR%%/Definitions/3changtrai.yml
 %%DATADIR%%/Definitions/3dtorrents.yml
 %%DATADIR%%/Definitions/3evils.yml
@@ -77,6 +76,7 @@
 %%DATADIR%%/Definitions/aidoruonline.yml
 %%DATADIR%%/Definitions/aither.yml
 %%DATADIR%%/Definitions/amigosshare.yml
+%%DATADIR%%/Definitions/animeclipse.yml
 %%DATADIR%%/Definitions/anirena.yml
 %%DATADIR%%/Definitions/anisource.yml
 %%DATADIR%%/Definitions/arabafenice.yml
@@ -107,6 +107,7 @@
 %%DATADIR%%/Definitions/bluebird.yml
 %%DATADIR%%/Definitions/blutopia.yml
 %%DATADIR%%/Definitions/booktracker.yml
+%%DATADIR%%/Definitions/bootytape.yml
 %%DATADIR%%/Definitions/borgzelle.yml
 %%DATADIR%%/Definitions/boxingtorrents.yml
 %%DATADIR%%/Definitions/brasiltracker.yml
@@ -162,9 +163,9 @@
 %%DATADIR%%/Definitions/ebooks-shares.yml
 %%DATADIR%%/Definitions/efectodoppler.yml
 %%DATADIR%%/Definitions/ehentai.yml
-%%DATADIR%%/Definitions/elitetorrent-biz.yml
 %%DATADIR%%/Definitions/empornium.yml
 %%DATADIR%%/Definitions/empornium2fa.yml
+%%DATADIR%%/Definitions/emtrek.yml
 %%DATADIR%%/Definitions/eniahd.yml
 %%DATADIR%%/Definitions/epizod.yml
 %%DATADIR%%/Definitions/erzsebet.yml
@@ -175,6 +176,7 @@
 %%DATADIR%%/Definitions/ettv.yml
 %%DATADIR%%/Definitions/exkinoray.yml
 %%DATADIR%%/Definitions/extratorrent-cd.yml
+%%DATADIR%%/Definitions/extratorrent-it.yml
 %%DATADIR%%/Definitions/extremebits.yml
 %%DATADIR%%/Definitions/extremetorrents.yml
 %%DATADIR%%/Definitions/extremlymtorrents.yml
@@ -201,6 +203,7 @@
 %%DATADIR%%/Definitions/gay-torrentsorg.yml
 %%DATADIR%%/Definitions/gaytorrentru.yml
 %%DATADIR%%/Definitions/generationfree.yml
+%%DATADIR%%/Definitions/genesismovement.yml
 %%DATADIR%%/Definitions/gfxpeers.yml
 %%DATADIR%%/Definitions/gigatorrents.yml
 %%DATADIR%%/Definitions/girotorrent.yml
@@ -256,11 +259,10 @@
 %%DATADIR%%/Definitions/karagarga.yml
 %%DATADIR%%/Definitions/keepfriends.yml
 %%DATADIR%%/Definitions/kickasstorrent-kathow.yml
-%%DATADIR%%/Definitions/kickasstorrent.yml
+%%DATADIR%%/Definitions/kickasstorrents-to.yml
 %%DATADIR%%/Definitions/kinonavse100.yml
 %%DATADIR%%/Definitions/kinorun.yml
 %%DATADIR%%/Definitions/kinozal.yml
-%%DATADIR%%/Definitions/korsar.yml
 %%DATADIR%%/Definitions/lastfiles.yml
 %%DATADIR%%/Definitions/latinop2p.yml
 %%DATADIR%%/Definitions/leaguehd.yml
@@ -282,8 +284,10 @@
 %%DATADIR%%/Definitions/magnetdl.yml
 %%DATADIR%%/Definitions/majomparade.yml
 %%DATADIR%%/Definitions/marinetracker.yml
+%%DATADIR%%/Definitions/mesevilag.yml
 %%DATADIR%%/Definitions/metaltracker.yml
 %%DATADIR%%/Definitions/microbit.yml
+%%DATADIR%%/Definitions/mixtapetorrent.yml
 %%DATADIR%%/Definitions/mma-torrents.yml
 %%DATADIR%%/Definitions/mnv.yml
 %%DATADIR%%/Definitions/mononokebt.yml
@@ -383,6 +387,7 @@
 %%DATADIR%%/Definitions/sktorrent-org.yml
 %%DATADIR%%/Definitions/sktorrent.yml
 %%DATADIR%%/Definitions/skytorrentsclone.yml
+%%DATADIR%%/Definitions/skytorrentsclone2.yml
 %%DATADIR%%/Definitions/snowpt.yml
 %%DATADIR%%/Definitions/sosulki.yml
 %%DATADIR%%/Definitions/soulvoice.yml
@@ -416,7 +421,6 @@
 %%DATADIR%%/Definitions/tjupt.yml
 %%DATADIR%%/Definitions/tlfbits.yml
 %%DATADIR%%/Definitions/tokyotosho.yml
-%%DATADIR%%/Definitions/topnow.yml
 %%DATADIR%%/Definitions/torlock.yml
 %%DATADIR%%/Definitions/toros.yml
 %%DATADIR%%/Definitions/torrent-explosiv.yml
@@ -442,10 +446,12 @@
 %%DATADIR%%/Definitions/torrentlt.yml
 %%DATADIR%%/Definitions/torrentoyunindir.yml
 %%DATADIR%%/Definitions/torrentparadise.yml
+%%DATADIR%%/Definitions/torrentproject.yml
 %%DATADIR%%/Definitions/torrentproject2.yml
 %%DATADIR%%/Definitions/torrentquest.yml
 %%DATADIR%%/Definitions/torrentsectorcrew.yml
 %%DATADIR%%/Definitions/torrentslocal.yml
+%%DATADIR%%/Definitions/torrentsurf.yml
 %%DATADIR%%/Definitions/torrentv.yml
 %%DATADIR%%/Definitions/torrentview.yml
 %%DATADIR%%/Definitions/torrentz2.yml
@@ -480,7 +486,6 @@
 %%DATADIR%%/Definitions/woot.yml
 %%DATADIR%%/Definitions/x-ite.me.yml
 %%DATADIR%%/Definitions/xbytes2.yml
-%%DATADIR%%/Definitions/xfsub.yml
 %%DATADIR%%/Definitions/xwtclassics.yml
 %%DATADIR%%/Definitions/xwtorrents.yml
 %%DATADIR%%/Definitions/xxxadulttorrent.yml

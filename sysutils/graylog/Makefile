@@ -3,7 +3,7 @@
 
 PORTNAME=	graylog
 DISTVERSION=	3.3.8
-PORT_REVISION=	1
+PORTREVISION=	1
 CATEGORIES=	sysutils java
 MASTER_SITES=	https://downloads.graylog.org/releases/
 DISTFILES=	graylog/${DISTNAME}${EXTRACT_SUFX} \

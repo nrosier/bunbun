@@ -72,19 +72,9 @@ java_options=" \
     -Xms${graylog_min_mem} \
     -Xmx${graylog_max_mem} \
     -XX:-OmitStackTraceInFastThrow \
-    -XX:+AggressiveOpts \
-    -XX:+CMSClassUnloadingEnabled \
-    -XX:+CMSConcurrentMTEnabled \
-    -XX:+CMSParallelRemarkEnabled \
-    -XX:+DisableExplicitGC \
     -XX:+HeapDumpOnOutOfMemoryError \
     -XX:+ResizeTLAB \
-    -XX:+UseCMSInitiatingOccupancyOnly \
     -XX:+UseCompressedOops \
-    -XX:+UseConcMarkSweepGC \
-    -XX:+UseFastAccessorMethods \
-    -XX:+UseParNewGC \
-    -XX:CMSInitiatingOccupancyFraction=75 \
     -XX:NewRatio=1 \
     "
 

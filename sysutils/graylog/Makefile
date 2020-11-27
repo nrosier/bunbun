@@ -2,11 +2,13 @@
 # $FreeBSD: head/sysutils/graylog/Makefile 552576 2020-10-17 14:11:03Z dch $
 
 PORTNAME=	graylog
-DISTVERSION=	4.0.0
+DISTVERSION=	4.0.1
 CATEGORIES=	sysutils java
 MASTER_SITES=	https://downloads.graylog.org/releases/
 DISTFILES=	graylog/${DISTNAME}${EXTRACT_SUFX} \
-		graylog-integrations/graylog-integrations-plugins-${DISTVERSION}${EXTRACT_SUFX}
+		graylog-integrations/graylog-integrations-plugins-${DISTVERSION}${EXTRACT_SUFX} \
+		graylog-enterprise/graylog-enterprise-plugins-${DISTVERSION}${EXTRACT_SUFX} \
+		graylog-enterprise-integrations/graylog-enterprise-integrations-plugins-${DISTVERSION}${EXTRACT_SUFX}
 
 MAINTAINER=	dch@FreeBSD.org
 COMMENT=	Tool for centralized log collection
@@ -17,7 +19,7 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		tar:tgz
 USE_JAVA=	yes
 
-JAVA_VERSION=	1.15+
+JAVA_VERSION=	1.14+
 JAVA_EXTRACT=	yes
 JAVA_RUN=	yes
 
@@ -54,6 +56,10 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/graylog.jar ${STAGEDIR}${DATADIR}
 	${INSTALL_DATA} ${WRKSRC}/graylog.conf.example ${STAGEDIR}${ETCDIR}/graylog.conf.example
 	cd ${WRKDIR}/graylog-integrations-plugins-${DISTVERSION}/plugin && \
+	    ${COPYTREE_SHARE} . ${STAGEDIR}${DATADIR}/plugin/
+	cd ${WRKDIR}/graylog-enterprise-plugins-${DISTVERSION}/plugin && \
+	    ${COPYTREE_SHARE} . ${STAGEDIR}${DATADIR}/plugin/
+	cd ${WRKDIR}/graylog-enterprise-integrations-plugins-${DISTVERSION}/plugin && \
 	    ${COPYTREE_SHARE} . ${STAGEDIR}${DATADIR}/plugin/
 	cd ${WRKSRC}/plugin && \
 	    ${COPYTREE_SHARE} . ${STAGEDIR}${DATADIR}/plugin/

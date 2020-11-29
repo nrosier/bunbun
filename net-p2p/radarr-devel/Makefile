@@ -29,6 +29,8 @@ GROUPS=	radarr
 
 OPTIONS_DEFINE=	X11
 
+CONFLICTS=	radarr
+
 # Permits image resizing
 X11_LIB_DEPENDS+=libgdiplus.so:x11-toolkits/libgdiplus
 
@@ -45,5 +47,3 @@ post-install:
 		${SED} -e 's#^${STAGEDIR}${PREFIX}/##' >> ${TMPPLIST}
 
 .include <bsd.port.mk>
-# $FreeBSD: head/net-p2p/sonarr-devel/Makefile 549463 2020-09-21 17:17:43Z feld $
-MASTER_SITES=	http://download.sonarr.tv/v3/phantom-develop/${PORTVERSION}/

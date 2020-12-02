@@ -48,6 +48,7 @@ RUN_DEPENDS=	xdg-open:devel/xdg-utils \
 		${PYTHON_PKGNAMEPREFIX}markdown>=0:textproc/py-markdown@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}chardet>=0:textproc/py-chardet@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}html5-parser>=0.4.3:www/py-html5-parser@${PY_FLAVOR} \
+		${PYTHON_PKGNAMEPREFIX}sip>=4.19.24:devel/py-sip@${PY_FLAVOR} \
 		${PY_PILLOW} \
 		pdftohtml:graphics/poppler-utils
 

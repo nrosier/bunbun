@@ -8616,6 +8616,5 @@
 @dir(%%WWWOWN%%,%%WWWGRP%%,755) %%WWWDIR%%/tmp/cache
 @dir(%%WWWOWN%%,%%WWWGRP%%,755) %%WWWDIR%%/tmp/cache/tracker
 @dir(%%WWWOWN%%,%%WWWGRP%%,) %%WWWDIR%%/config
-@dir %%WWWDIR%%/vendor/geoip2/geoip2/maxmind-db
 @dir %%WWWDIR%%/vendor/symfony/console/Symfony/Component/Console/Resources
 @dir %%WWWDIR%%/vendor/szymach/c-pchart/app/cache

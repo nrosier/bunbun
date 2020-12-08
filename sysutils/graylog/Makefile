@@ -57,6 +57,10 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/graylog.conf.example ${STAGEDIR}${ETCDIR}/graylog.conf.example
 	cd ${WRKDIR}/graylog-integrations-plugins-${DISTVERSION}/plugin && \
 	    ${COPYTREE_SHARE} . ${STAGEDIR}${DATADIR}/plugin/
+	cd ${WRKDIR}/graylog-enterprise-plugins-${DISTVERSION}/plugin && \
+	    ${COPYTREE_SHARE} . ${STAGEDIR}${DATADIR}/plugin/
+	cd ${WRKDIR}/graylog-enterprise-integrations-plugins-${DISTVERSION}/plugin && \
+	    ${COPYTREE_SHARE} . ${STAGEDIR}${DATADIR}/plugin/
 	cd ${WRKSRC}/plugin && \
 	    ${COPYTREE_SHARE} . ${STAGEDIR}${DATADIR}/plugin/
 	${INSTALL_DATA} ${WRKDIR}/log4j2.xml ${STAGEDIR}${ETCDIR}/log4j2.xml.example

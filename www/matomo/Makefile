@@ -1,7 +1,7 @@
 # $FreeBSD: head/www/matomo/Makefile 534868 2020-05-10 22:07:00Z joneum $
 
 PORTNAME=	matomo
-DISTVERSION=	4.0.4
+DISTVERSION=	4.0.5
 #PORTREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	http://builds.matomo.org/

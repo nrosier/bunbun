@@ -1,7 +1,7 @@
 # $FreeBSD: head/net-p2p/sonarr-devel/Makefile 549463 2020-09-21 17:17:43Z feld $
 
 PORTNAME=	sonarr
-PORTVERSION=	3.0.4.1020
+PORTVERSION=	3.0.4.1026
 PORTREVISION=	0
 CATEGORIES=	net-p2p
 MASTER_SITES=	http://download.sonarr.tv/v3/phantom-develop/${PORTVERSION}/

@@ -3,7 +3,6 @@
 %%DATADIR%%/Autofac.Extensions.DependencyInjection.dll
 %%DATADIR%%/Autofac.dll
 %%DATADIR%%/BencodeNET.dll
-%%DATADIR%%/CloudflareSolverRe.dll
 %%DATADIR%%/CommandLine.dll
 %%DATADIR%%/Content/animate.css
 %%DATADIR%%/Content/apple-touch-icon-114x114.png
@@ -172,7 +171,6 @@
 %%DATADIR%%/Definitions/erzsebetpl.yml
 %%DATADIR%%/Definitions/esharenet.yml
 %%DATADIR%%/Definitions/estone.yml
-%%DATADIR%%/Definitions/ethor.yml
 %%DATADIR%%/Definitions/ettv.yml
 %%DATADIR%%/Definitions/exkinoray.yml
 %%DATADIR%%/Definitions/extratorrent-cd.yml
@@ -281,7 +279,6 @@
 %%DATADIR%%/Definitions/madsrevolution.yml
 %%DATADIR%%/Definitions/magico.yml
 %%DATADIR%%/Definitions/magnet4you.yml
-%%DATADIR%%/Definitions/magnetdl.yml
 %%DATADIR%%/Definitions/majomparade.yml
 %%DATADIR%%/Definitions/marinetracker.yml
 %%DATADIR%%/Definitions/mesevilag.yml
@@ -349,6 +346,7 @@
 %%DATADIR%%/Definitions/pthome.yml
 %%DATADIR%%/Definitions/ptmsg.yml
 %%DATADIR%%/Definitions/ptsbao.yml
+%%DATADIR%%/Definitions/pttime.yml
 %%DATADIR%%/Definitions/puntotorrent.yml
 %%DATADIR%%/Definitions/purovicio.yml
 %%DATADIR%%/Definitions/pussytorrents.yml
@@ -391,7 +389,6 @@
 %%DATADIR%%/Definitions/snowpt.yml
 %%DATADIR%%/Definitions/sosulki.yml
 %%DATADIR%%/Definitions/soulvoice.yml
-%%DATADIR%%/Definitions/spacetorrent.yml
 %%DATADIR%%/Definitions/speedmasterhd.yml
 %%DATADIR%%/Definitions/speedtorrentreloaded.yml
 %%DATADIR%%/Definitions/spiritofrevolution.yml
@@ -448,7 +445,6 @@
 %%DATADIR%%/Definitions/torrentparadise.yml
 %%DATADIR%%/Definitions/torrentproject.yml
 %%DATADIR%%/Definitions/torrentproject2.yml
-%%DATADIR%%/Definitions/torrentquest.yml
 %%DATADIR%%/Definitions/torrentsectorcrew.yml
 %%DATADIR%%/Definitions/torrentslocal.yml
 %%DATADIR%%/Definitions/torrentsurf.yml
@@ -501,6 +497,7 @@
 %%DATADIR%%/Definitions/zetorrents.yml
 %%DATADIR%%/Definitions/zooqle.yml
 %%DATADIR%%/Definitions/ztracker.yml
+%%DATADIR%%/FlareSolverrSharp.dll
 %%DATADIR%%/ICSharpCode.SharpZipLib.dll
 %%DATADIR%%/Jackett.Common.dll
 %%DATADIR%%/Jackett.Common.pdb
@@ -511,7 +508,6 @@
 %%DATADIR%%/JackettUpdater.exe
 %%DATADIR%%/JackettUpdater.exe.config
 %%DATADIR%%/JackettUpdater.pdb
-%%DATADIR%%/Jint.dll
 %%DATADIR%%/LICENSE
 %%DATADIR%%/Microsoft.AspNetCore.Antiforgery.dll
 %%DATADIR%%/Microsoft.AspNetCore.Authentication.Abstractions.dll

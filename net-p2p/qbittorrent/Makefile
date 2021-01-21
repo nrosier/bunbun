@@ -2,7 +2,7 @@
 # $FreeBSD: head/net-p2p/qbittorrent/Makefile 556529 2020-11-28 21:25:05Z yuri $
 
 PORTNAME=	qbittorrent
-DISTVERSION=	4.3.2
+DISTVERSION=	4.3.3
 CATEGORIES=	net-p2p
 MASTER_SITES=	SF/${PORTNAME}/${PORTNAME}/${PORTNAME}-${PORTVERSION}
 

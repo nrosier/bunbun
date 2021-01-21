@@ -2,7 +2,7 @@
 # $FreeBSD: head/net-p2p/libtorrent-rasterbar/Makefile 547585 2020-09-05 05:34:59Z yuri $
 
 PORTNAME=	libtorrent-rasterbar
-DISTVERSION=	1.2.11
+DISTVERSION=	1.2.12
 CATEGORIES=	net-p2p
 MASTER_SITES=	https://github.com/arvidn/libtorrent/releases/download/v${DISTVERSION}/
 

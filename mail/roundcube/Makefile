@@ -52,10 +52,6 @@ SQLITE_VARS=	use_php+=pdo_sqlite
 
 SUB_FILES=	newsyslog.conf
 
-post-patch:
-	@${FIND} ${WRKSRC} -name \*.orig -type f -delete
-	@${RMDIR} ${WRKSRC}/plugins/archive/skins/larry
-
 do-install:
 	-${MKDIR} ${STAGEDIR}${WWWDIR}
 	@cd ${WRKSRC} && ${COPYTREE_BIN} bin ${STAGEDIR}${WWWDIR}

@@ -24,7 +24,7 @@ GH_ACCOUNT=	Snawoot
 OPTIONS_DEFINE=	REDIS SQLITE
 
 REDIS_RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}aioredis>=1.2.0:databases/py-aioredis@${PY_FLAVOR}
-SQLITE_RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}aiosqlite>=1.10.0:databases/py-aiosqlite@${PY_FLAVOR}
+SQLITE_RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}aiosqlite>=0.17.0:databases/py-aiosqlite@${PY_FLAVOR}
 
 USE_RC_SUBR=	mta_sts
 

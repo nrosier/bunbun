@@ -22,8 +22,6 @@ GH_ACCOUNT=	arvidn
 GH_PROJECT=	libtorrent
 USE_PYTHON=	distutils autoplist
 
-BINARY_ALIAS=	b2=${FILESDIR}/b2
-
 CFLAGS+=	-DTORRENT_DISABLE_LOGGING # undefined symbol: https://github.com/arvidn/libtorrent/issues/3331
 LDFLAGS+=	${LOCALBASE}/lib/libboost_python${PYTHON_SUFFIX}.so ${LOCALBASE}/lib/libiconv.so # fails to link libs: https://github.com/arvidn/libtorrent/issues/3330
 

@@ -4,7 +4,7 @@ DISTVERSION=	2.0.8
 PORTREVISION=	0
 CATEGORIES=	net-p2p
 #MASTER_SITES=	https://github.com/arvidn/libtorrent/releases/download/v${DISTVERSION}/
-#PKGNAMESUFFIX=	2
+PKGNAMESUFFIX=	2
 
 MAINTAINER=	yuri@FreeBSD.org
 COMMENT=	C++ library implementing a BitTorrent client

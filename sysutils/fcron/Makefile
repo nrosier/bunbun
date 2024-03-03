@@ -1,7 +1,7 @@
 # $FreeBSD: head/sysutils/fcron/Makefile 419320 2016-07-30 14:22:03Z pi $
 
 PORTNAME=	fcron
-PORTVERSION=	3.3.0
+PORTVERSION=	3.3.1
 CATEGORIES=	sysutils
 MASTER_SITES=	http://fcron.free.fr/archives/ \
 		ftp://ftp.seul.org/pub/fcron/

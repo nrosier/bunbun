@@ -12,7 +12,8 @@ LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 BUILD_DEPENDS=  ${PY_SETUPTOOLS} \
-                ${PYTHON_PKGNAMEPREFIX}wheel>0:devel/py-wheel@${PY_FLAVOR}
+                ${PYTHON_PKGNAMEPREFIX}wheel>0:devel/py-wheel@${PY_FLAVOR} \
+		${PYTHON_PKGNAMEPREFIX}babel>0:devel/py-babel@${PY_FLAVOR}
 
 USES=		python
 USE_PYTHON=	autoplist pep517 pytest

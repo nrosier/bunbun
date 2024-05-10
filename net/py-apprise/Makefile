@@ -1,16 +1,13 @@
-# Created by: 
-# $FreeBSD$
-
 PORTNAME=	apprise
 PORTVERSION=	1.7.6
 CATEGORIES=	net python
 MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
-MAINTAINER=	# FILL ME
+MAINTAINER=	nick@bunbun.be
 COMMENT=	Push notifications that work with just about every platform!
 
-# LICENSE=	BSD # Ensure this is valid! See ${PORTSDIR}/Mk/bsd.licenses.db.mk.
+LICENSE=	BSD
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}certifi>0:XXX/py-certifi \
 			${PYTHON_PKGNAMEPREFIX}requests>0:XXX/py-requests \

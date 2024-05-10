@@ -11,7 +11,10 @@ WWW=		https://pypi.org/project/apprise/
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
+BUILD_DEPENDS=  ${PY_SETUPTOOLS} \
+                ${PYTHON_PKGNAMEPREFIX}wheel>0:devel/py-wheel@${PY_FLAVOR}
+
 USES=		python:3.9
-USE_PYTHON=	autoplist distutils
+USE_PYTHON=	autoplist pep517 distutils
 
 .include <bsd.port.mk>

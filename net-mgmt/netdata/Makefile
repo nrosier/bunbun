@@ -81,20 +81,6 @@ NETDATA_CACHE=	/var/cache/${PORTNAME}
 NETDATA_LOG=	/var/log/${PORTNAME}
 NETDATA_PERST=	/var/db/${PORTNAME}
 
-post-patch:
-	@${REINPLACE_CMD} -e 's|%%DISTVERSION%%|${DISTVERSION}|g' \
-	    ${PATCH_WRKSRC}/configure.ac
-	@${REINPLACE_CMD} -e 's|%%NETDATA_CACHE%%|${NETDATA_CACHE}|g' \
-	    ${PATCH_WRKSRC}/configure.ac
-	@${REINPLACE_CMD} -e 's|%%NETDATA_LOG%%|${NETDATA_LOG}|g' \
-	    ${PATCH_WRKSRC}/configure.ac
-	@${REINPLACE_CMD} -e 's|%%NETDATA_PERST%%|${NETDATA_PERST}|g' \
-	    ${PATCH_WRKSRC}/configure.ac
-	@${REINPLACE_CMD} -e 's|%%ETCDIR%%|${ETCDIR}|g' \
-	    ${PATCH_WRKSRC}/configure.ac
-	@${REINPLACE_CMD} -e 's|%%PYTHON%%|${PYTHON_CMD}|g' \
-	    ${PATCH_WRKSRC}/collectors/python.d.plugin/python.d.plugin.in
-
 post-install:
 	${MKDIR} ${STAGEDIR}${ETCDIR}
 	${INSTALL_DATA} ${WRKDIR}/netdata.conf.sample ${STAGEDIR}${ETCDIR}/netdata.conf.sample

@@ -1,5 +1,5 @@
 PORTNAME=	sabnzbd
-DISTVERSION=	4.3.1
+DISTVERSION=	4.3.2
 CATEGORIES=	news
 MASTER_SITES=	https://github.com/sabnzbd/sabnzbd/releases/download/${DISTVERSION}/
 DISTNAME=	SABnzbd-${DISTVERSION}-src
